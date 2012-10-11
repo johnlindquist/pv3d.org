@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: RenderLayers &#8211; Selective Rendering</title>
+	<atom:link href="http://pv3d.org/2009/03/30/renderlayers-selective-rendering/feed/" rel="self" type="application/rss+xml" />
+	<link>http://pv3d.org/2009/03/30/renderlayers-selective-rendering/</link>
+	<description>Papervision3D, ActionScript, and Flex examples and tutorials by John Lindquist</description>
+	<lastBuildDate>Mon, 24 Sep 2012 13:27:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.4.2</generator>
+	<item>
+		<title>By: RK</title>
+		<link>http://pv3d.org/2009/03/30/renderlayers-selective-rendering/comment-page-1/#comment-32656</link>
+		<dc:creator>RK</dc:creator>
+		<pubDate>Mon, 14 Jun 2010 02:48:23 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=488#comment-32656</guid>
+		<description>although your question is more than a year old ...&lt;br&gt;you can save the renderlist once you&#039;ve rendered all your planes and assign it back to your viewport after you&#039;ve rendered your scene with the selective methode.&lt;br&gt;&lt;br&gt;this.m_viewport.lastRenderList = this.m_savedLastRenderList.concat();</description>
+		<content:encoded><![CDATA[<p>although your question is more than a year old &#8230;<br />you can save the renderlist once you&#39;ve rendered all your planes and assign it back to your viewport after you&#39;ve rendered your scene with the selective methode.</p>
+<p>this.m_viewport.lastRenderList = this.m_savedLastRenderList.concat();</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: RK</title>
+		<link>http://pv3d.org/2009/03/30/renderlayers-selective-rendering/comment-page-1/#comment-25003</link>
+		<dc:creator>RK</dc:creator>
+		<pubDate>Sun, 13 Jun 2010 19:48:23 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=488#comment-25003</guid>
+		<description>although your question is more than a year old ...&lt;br&gt;you can save the renderlist once you&#039;ve rendered all your planes and assign it back to your viewport after you&#039;ve rendered your scene with the selective methode.&lt;br&gt;&lt;br&gt;this.m_viewport.lastRenderList = this.m_savedLastRenderList.concat();</description>
+		<content:encoded><![CDATA[<p>although your question is more than a year old &#8230;<br />you can save the renderlist once you&#39;ve rendered all your planes and assign it back to your viewport after you&#39;ve rendered your scene with the selective methode.</p>
+<p>this.m_viewport.lastRenderList = this.m_savedLastRenderList.concat();</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: John Lindquist</title>
+		<link>http://pv3d.org/2009/03/30/renderlayers-selective-rendering/comment-page-1/#comment-2571</link>
+		<dc:creator>John Lindquist</dc:creator>
+		<pubDate>Fri, 10 Jul 2009 17:58:28 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=488#comment-2571</guid>
+		<description>@Augie - I&#039;d recommend adding MouseEvent handlers to the ViewportLayers. So once you roll over the viewport layer, you could start interacting with it and/or render it.</description>
+		<content:encoded><![CDATA[<p>@Augie &#8211; I&#8217;d recommend adding MouseEvent handlers to the ViewportLayers. So once you roll over the viewport layer, you could start interacting with it and/or render it.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Augie</title>
+		<link>http://pv3d.org/2009/03/30/renderlayers-selective-rendering/comment-page-1/#comment-2569</link>
+		<dc:creator>Augie</dc:creator>
+		<pubDate>Fri, 10 Jul 2009 16:42:14 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=488#comment-2569</guid>
+		<description>@Vico: I have the same exact problem, it seems that you can only interact with objects in the last ViewportLayer that you render. Does anyone know why this is? Vico&#039;s workaround does not work for me, as I am stopping rendering on purpose, in order to tween the camera and a new 3d Object only (in order to achieve an &quot;impossible&quot; perspective). I think I might just have to make 2 papervision scenes on top of each other...</description>
+		<content:encoded><![CDATA[<p>@Vico: I have the same exact problem, it seems that you can only interact with objects in the last ViewportLayer that you render. Does anyone know why this is? Vico&#8217;s workaround does not work for me, as I am stopping rendering on purpose, in order to tween the camera and a new 3d Object only (in order to achieve an &#8220;impossible&#8221; perspective). I think I might just have to make 2 papervision scenes on top of each other&#8230;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Vico</title>
+		<link>http://pv3d.org/2009/03/30/renderlayers-selective-rendering/comment-page-1/#comment-1531</link>
+		<dc:creator>Vico</dc:creator>
+		<pubDate>Wed, 15 Apr 2009 14:46:24 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=488#comment-1531</guid>
+		<description>Hello john, 
+Thank you for all your tutorials, and congratulations on your new job. 
+
+I have made selective renderer, on one of my projects. 
+I have many planes, and I want to make a render only on the selected plane. 
+So I have my listeners on all planes (OBJECT_PRESS. ..). When I click on a plane, I select the viewportlayer and render only that layer. It works very well ... 
+Except that I lose the interactivity on all my other planes ... 
+I found a &quot;temporary&quot; solution, I make a render of all my planes once the animation of the selected plane over. 
+Interactivity on each plane returns. 
+But it made me a more render... 
+
+I do not understand why listeners disappear when plane does not render ... 
+
+Do you have an idea where this might come?
+maybe I did the wrong way ?</description>
+		<content:encoded><![CDATA[<p>Hello john,<br />
+Thank you for all your tutorials, and congratulations on your new job. </p>
+<p>I have made selective renderer, on one of my projects.<br />
+I have many planes, and I want to make a render only on the selected plane.<br />
+So I have my listeners on all planes (OBJECT_PRESS. ..). When I click on a plane, I select the viewportlayer and render only that layer. It works very well &#8230;<br />
+Except that I lose the interactivity on all my other planes &#8230;<br />
+I found a &#8220;temporary&#8221; solution, I make a render of all my planes once the animation of the selected plane over.<br />
+Interactivity on each plane returns.<br />
+But it made me a more render&#8230; </p>
+<p>I do not understand why listeners disappear when plane does not render &#8230; </p>
+<p>Do you have an idea where this might come?<br />
+maybe I did the wrong way ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: gordee</title>
+		<link>http://pv3d.org/2009/03/30/renderlayers-selective-rendering/comment-page-1/#comment-1371</link>
+		<dc:creator>gordee</dc:creator>
+		<pubDate>Sat, 04 Apr 2009 00:27:18 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=488#comment-1371</guid>
+		<description>Hey John, glad to see you blogging again!
+
+So even though you&#039;re extending BasicView, this line -  
+renderer.renderLayers(scene, camera, viewport, rightLayers);
+
+is necessary to get to the specified layer? Can&#039;t you do-
+
+startRendering(rightLayers); ?</description>
+		<content:encoded><![CDATA[<p>Hey John, glad to see you blogging again!</p>
+<p>So even though you&#8217;re extending BasicView, this line &#8211;<br />
+renderer.renderLayers(scene, camera, viewport, rightLayers);</p>
+<p>is necessary to get to the specified layer? Can&#8217;t you do-</p>
+<p>startRendering(rightLayers); ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Dan</title>
+		<link>http://pv3d.org/2009/03/30/renderlayers-selective-rendering/comment-page-1/#comment-1307</link>
+		<dc:creator>Dan</dc:creator>
+		<pubDate>Tue, 31 Mar 2009 21:48:53 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=488#comment-1307</guid>
+		<description>Thanks again John.  What if I were to want to index sort two viewports, render the back viewport once b/c it doesn&#039;t change but not the front viewport?  Is that possible with viewport layers or would they have to be two separate viewports rendered differently?</description>
+		<content:encoded><![CDATA[<p>Thanks again John.  What if I were to want to index sort two viewports, render the back viewport once b/c it doesn&#8217;t change but not the front viewport?  Is that possible with viewport layers or would they have to be two separate viewports rendered differently?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Aloïs</title>
+		<link>http://pv3d.org/2009/03/30/renderlayers-selective-rendering/comment-page-1/#comment-1285</link>
+		<dc:creator>Aloïs</dc:creator>
+		<pubDate>Mon, 30 Mar 2009 10:47:09 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=488#comment-1285</guid>
+		<description>Thanks John !!!</description>
+		<content:encoded><![CDATA[<p>Thanks John !!!</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+<!-- WP Super Cache is installed but broken. The path to wp-cache-phase1.php in wp-content/advanced-cache.php must be fixed! -->

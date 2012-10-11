@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Collada with CellShader and PointLight3D</title>
+	<atom:link href="http://pv3d.org/2008/12/07/collada-with-cellshader-and-pointlight3d/feed/" rel="self" type="application/rss+xml" />
+	<link>http://pv3d.org/2008/12/07/collada-with-cellshader-and-pointlight3d/</link>
+	<description>Papervision3D, ActionScript, and Flex examples and tutorials by John Lindquist</description>
+	<lastBuildDate>Mon, 24 Sep 2012 13:27:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.4.2</generator>
+	<item>
+		<title>By: Best hosting india</title>
+		<link>http://pv3d.org/2008/12/07/collada-with-cellshader-and-pointlight3d/comment-page-1/#comment-35205</link>
+		<dc:creator>Best hosting india</dc:creator>
+		<pubDate>Mon, 26 Mar 2012 16:48:26 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=185#comment-35205</guid>
+		<description>&lt;p&gt;wonderful! i&#039;ll definitely try this. thanks for sharing. &lt;/p&gt;</description>
+		<content:encoded><![CDATA[<p>wonderful! i&#39;ll definitely try this. thanks for sharing. </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Craig Hamilton</title>
+		<link>http://pv3d.org/2008/12/07/collada-with-cellshader-and-pointlight3d/comment-page-1/#comment-32676</link>
+		<dc:creator>Craig Hamilton</dc:creator>
+		<pubDate>Wed, 03 Feb 2010 04:44:53 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=185#comment-32676</guid>
+		<description>Hi Martijn,
+&lt;br&gt;I had the same problem. look in your dae file for something that looks like this:
+&lt;br&gt;
+&lt;br&gt;&lt;library_materials&gt;
+&lt;br&gt;		&lt;material id=&quot;cubemap2_png&quot; name=&quot;cubemap2_png&quot;&gt;
+&lt;br&gt;			&lt;instance_effect url=&quot;#cubemap2_png-fx&quot;&gt;
+&lt;br&gt;		&lt;/instance_effect&gt;&lt;/material&gt;
+&lt;br&gt;&lt;/library_materials&gt;
+&lt;br&gt;
+&lt;br&gt;The code is looking for the wrong material name so change dae.materials.addMaterial(shadedMaterial, &quot;cMaterial&quot;); to dae.materials.addMaterial(shadedMaterial, &quot;cubemap2_png&quot;); or whatever your material name is in your dae file.
+&lt;br&gt;
+&lt;br&gt;Good luck.</description>
+		<content:encoded><![CDATA[<p>Hi Martijn,<br />
+<br />I had the same problem. look in your dae file for something that looks like this:</p>
+<p>&lt;library_materials&gt;<br />
+<br />		&lt;material id=&#8221;cubemap2_png&#8221; name=&#8221;cubemap2_png&#8221;&gt;<br />
+<br />			&lt;instance_effect url=&#8221;#cubemap2_png-fx&#8221;&gt;<br />
+<br />		&lt;/instance_effect&gt;&lt;/material&gt;<br />
+<br />&lt;/library_materials&gt;</p>
+<p>The code is looking for the wrong material name so change dae.materials.addMaterial(shadedMaterial, &#8220;cMaterial&#8221;); to dae.materials.addMaterial(shadedMaterial, &#8220;cubemap2_png&#8221;); or whatever your material name is in your dae file.</p>
+<p>Good luck.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Craig Hamilton</title>
+		<link>http://pv3d.org/2008/12/07/collada-with-cellshader-and-pointlight3d/comment-page-1/#comment-17685</link>
+		<dc:creator>Craig Hamilton</dc:creator>
+		<pubDate>Tue, 02 Feb 2010 20:44:53 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=185#comment-17685</guid>
+		<description>Hi Martijn,&lt;br&gt;I had the same problem. look in your dae file for something that looks like this:&lt;br&gt;&lt;br&gt;&lt;library_materials&gt;&lt;br&gt;		&lt;material id=&quot;cubemap2_png&quot; name=&quot;cubemap2_png&quot;&gt;&lt;br&gt;			&lt;instance_effect url=&quot;#cubemap2_png-fx&quot;/&gt;&lt;br&gt;		&lt;/material&gt;&lt;br&gt;&lt;/library_materials&gt;&lt;br&gt;&lt;br&gt;The code is looking for the wrong material name so change dae.materials.addMaterial(shadedMaterial, &quot;cMaterial&quot;); to dae.materials.addMaterial(shadedMaterial, &quot;cubemap2_png&quot;); or whatever your material name is in your dae file.&lt;br&gt;&lt;br&gt;Good luck.</description>
+		<content:encoded><![CDATA[<p>Hi Martijn,<br />I had the same problem. look in your dae file for something that looks like this:</p>
+<p>&lt;library_materials&gt;<br />		&lt;material id=&#8221;cubemap2_png&#8221; name=&#8221;cubemap2_png&#8221;&gt;<br />			&lt;instance_effect url=&#8221;#cubemap2_png-fx&#8221;/&gt;<br />		&lt;/material&gt;<br />&lt;/library_materials&gt;</p>
+<p>The code is looking for the wrong material name so change dae.materials.addMaterial(shadedMaterial, &#8220;cMaterial&#8221;); to dae.materials.addMaterial(shadedMaterial, &#8220;cubemap2_png&#8221;); or whatever your material name is in your dae file.</p>
+<p>Good luck.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Martijn</title>
+		<link>http://pv3d.org/2008/12/07/collada-with-cellshader-and-pointlight3d/comment-page-1/#comment-17083</link>
+		<dc:creator>Martijn</dc:creator>
+		<pubDate>Sun, 24 Jan 2010 13:51:23 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=185#comment-17083</guid>
+		<description>Hello,
+
+Strange thing is that my collada model is showed as wireframe?? How is that possible???
+
+Thankss</description>
+		<content:encoded><![CDATA[<p>Hello,</p>
+<p>Strange thing is that my collada model is showed as wireframe?? How is that possible???</p>
+<p>Thankss</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: pri</title>
+		<link>http://pv3d.org/2008/12/07/collada-with-cellshader-and-pointlight3d/comment-page-1/#comment-1842</link>
+		<dc:creator>pri</dc:creator>
+		<pubDate>Thu, 07 May 2009 18:29:32 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=185#comment-1842</guid>
+		<description>I try to use a COLLADA file with many triangles...It is very difficult to manipulate the object on the scene, I try to modify the framerate ...It works to slowly....
+My question is what to do to have a better render on the scene ...</description>
+		<content:encoded><![CDATA[<p>I try to use a COLLADA file with many triangles&#8230;It is very difficult to manipulate the object on the scene, I try to modify the framerate &#8230;It works to slowly&#8230;.<br />
+My question is what to do to have a better render on the scene &#8230;</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+<!-- WP Super Cache is installed but broken. The path to wp-cache-phase1.php in wp-content/advanced-cache.php must be fixed! -->

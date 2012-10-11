@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Dragging mouse for camera orbit</title>
+	<atom:link href="http://pv3d.org/2008/11/19/dragging-mouse-for-camera-orbit/feed/" rel="self" type="application/rss+xml" />
+	<link>http://pv3d.org/2008/11/19/dragging-mouse-for-camera-orbit/</link>
+	<description>Papervision3D, ActionScript, and Flex examples and tutorials by John Lindquist</description>
+	<lastBuildDate>Mon, 24 Sep 2012 13:27:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.4.2</generator>
+	<item>
+		<title>By: Kevin Burke</title>
+		<link>http://pv3d.org/2008/11/19/dragging-mouse-for-camera-orbit/comment-page-1/#comment-32678</link>
+		<dc:creator>Kevin Burke</dc:creator>
+		<pubDate>Fri, 15 Oct 2010 00:21:35 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=37#comment-32678</guid>
+		<description>How can I get the Camera3D to orbit with an elliptical path as opposed to perfectly circular? Something like this:&lt;br&gt;&lt;a href=&quot;http://www.kevinburkeportfolio.com/ellipse.jpg&quot; rel=&quot;nofollow&quot;&gt;http://www.kevinburkeportfolio.com/ellipse.jpg&lt;/a&gt;&lt;br&gt;&lt;br&gt;		public override function orbit(pitch:Number, yaw:Number, useDegrees:Boolean=true, target:DisplayObject3D=null):void&lt;br&gt;		{&lt;br&gt;			target = target &#124;&#124; _target;&lt;br&gt;			target = target &#124;&#124; DisplayObject3D.ZERO;&lt;br&gt;&lt;br&gt;			if(useDegrees)&lt;br&gt;			{&lt;br&gt;				pitch *= (Math.PI/180);&lt;br&gt;				yaw *= (Math.PI/90);&lt;br&gt;			}&lt;br&gt;			&lt;br&gt;			// Number3D.sub&lt;br&gt;			var dx 			:Number = target.world.n14 - this.x;&lt;br&gt;			var dy 			:Number = target.world.n24 - this.y;&lt;br&gt;			var dz 			:Number = target.world.n34 - this.z;&lt;br&gt;			&lt;br&gt;			// Rotations&lt;br&gt;			var rx :Number = Math.cos(yaw) * Math.sin(pitch);&lt;br&gt;			var rz :Number = Math.sin(yaw) * Math.sin(pitch);&lt;br&gt;			var ry :Number = Math.cos(pitch);&lt;br&gt;			&lt;br&gt;			// Number3D.modulo&lt;br&gt;			var distance 	:Number = Math.sqrt(dx*dx+dy*dy+dz*dz);&lt;br&gt;			&lt;br&gt;			// Move to specified location&lt;br&gt;			this.x = target.world.n14 + (rx * distance);&lt;br&gt;			this.y = target.world.n24 + (ry * distance);&lt;br&gt;			this.z = target.world.n34 + (rz * distance);&lt;br&gt;			this.lookAt(target);&lt;br&gt;		}&lt;br&gt;&lt;br&gt;&lt;br&gt;</description>
+		<content:encoded><![CDATA[<p>How can I get the Camera3D to orbit with an elliptical path as opposed to perfectly circular? Something like this:<br /><a href="http://www.kevinburkeportfolio.com/ellipse.jpg" rel="nofollow">http://www.kevinburkeportfolio.com/ellipse.jpg</a></p>
+<p>		public override function orbit(pitch:Number, yaw:Number, useDegrees:Boolean=true, target:DisplayObject3D=null):void<br />		{<br />			target = target || _target;<br />			target = target || DisplayObject3D.ZERO;</p>
+<p>			if(useDegrees)<br />			{<br />				pitch *= (Math.PI/180);<br />				yaw *= (Math.PI/90);<br />			}</p>
+<p>			// Number3D.sub<br />			var dx 			:Number = target.world.n14 &#8211; this.x;<br />			var dy 			:Number = target.world.n24 &#8211; this.y;<br />			var dz 			:Number = target.world.n34 &#8211; this.z;</p>
+<p>			// Rotations<br />			var rx :Number = Math.cos(yaw) * Math.sin(pitch);<br />			var rz :Number = Math.sin(yaw) * Math.sin(pitch);<br />			var ry :Number = Math.cos(pitch);</p>
+<p>			// Number3D.modulo<br />			var distance 	:Number = Math.sqrt(dx*dx+dy*dy+dz*dz);</p>
+<p>			// Move to specified location<br />			this.x = target.world.n14 + (rx * distance);<br />			this.y = target.world.n24 + (ry * distance);<br />			this.z = target.world.n34 + (rz * distance);<br />			this.lookAt(target);<br />		}</p>
+<p></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Kevin Burke</title>
+		<link>http://pv3d.org/2008/11/19/dragging-mouse-for-camera-orbit/comment-page-1/#comment-31009</link>
+		<dc:creator>Kevin Burke</dc:creator>
+		<pubDate>Thu, 14 Oct 2010 17:21:35 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=37#comment-31009</guid>
+		<description>How can I get the Camera3D to orbit with an elliptical path as opposed to perfectly circular? Something like this:&lt;br&gt;&lt;a href=&quot;http://www.kevinburkeportfolio.com/ellipse.jpg&quot; rel=&quot;nofollow&quot;&gt;http://www.kevinburkeportfolio.com/ellipse.jpg&lt;/a&gt;&lt;br&gt;&lt;br&gt;		public override function orbit(pitch:Number, yaw:Number, useDegrees:Boolean=true, target:DisplayObject3D=null):void&lt;br&gt;		{&lt;br&gt;			target = target &#124;&#124; _target;&lt;br&gt;			target = target &#124;&#124; DisplayObject3D.ZERO;&lt;br&gt;&lt;br&gt;			if(useDegrees)&lt;br&gt;			{&lt;br&gt;				pitch *= (Math.PI/180);&lt;br&gt;				yaw *= (Math.PI/90);&lt;br&gt;			}&lt;br&gt;			&lt;br&gt;			// Number3D.sub&lt;br&gt;			var dx 			:Number = target.world.n14 - this.x;&lt;br&gt;			var dy 			:Number = target.world.n24 - this.y;&lt;br&gt;			var dz 			:Number = target.world.n34 - this.z;&lt;br&gt;			&lt;br&gt;			// Rotations&lt;br&gt;			var rx :Number = Math.cos(yaw) * Math.sin(pitch);&lt;br&gt;			var rz :Number = Math.sin(yaw) * Math.sin(pitch);&lt;br&gt;			var ry :Number = Math.cos(pitch);&lt;br&gt;			&lt;br&gt;			// Number3D.modulo&lt;br&gt;			var distance 	:Number = Math.sqrt(dx*dx+dy*dy+dz*dz);&lt;br&gt;			&lt;br&gt;			// Move to specified location&lt;br&gt;			this.x = target.world.n14 + (rx * distance);&lt;br&gt;			this.y = target.world.n24 + (ry * distance);&lt;br&gt;			this.z = target.world.n34 + (rz * distance);&lt;br&gt;			this.lookAt(target);&lt;br&gt;		}&lt;br&gt;&lt;br&gt;&lt;br&gt;</description>
+		<content:encoded><![CDATA[<p>How can I get the Camera3D to orbit with an elliptical path as opposed to perfectly circular? Something like this:<br /><a href="http://www.kevinburkeportfolio.com/ellipse.jpg" rel="nofollow">http://www.kevinburkeportfolio.com/ellipse.jpg</a></p>
+<p>		public override function orbit(pitch:Number, yaw:Number, useDegrees:Boolean=true, target:DisplayObject3D=null):void<br />		{<br />			target = target || _target;<br />			target = target || DisplayObject3D.ZERO;</p>
+<p>			if(useDegrees)<br />			{<br />				pitch *= (Math.PI/180);<br />				yaw *= (Math.PI/90);<br />			}</p>
+<p>			// Number3D.sub<br />			var dx 			:Number = target.world.n14 &#8211; this.x;<br />			var dy 			:Number = target.world.n24 &#8211; this.y;<br />			var dz 			:Number = target.world.n34 &#8211; this.z;</p>
+<p>			// Rotations<br />			var rx :Number = Math.cos(yaw) * Math.sin(pitch);<br />			var rz :Number = Math.sin(yaw) * Math.sin(pitch);<br />			var ry :Number = Math.cos(pitch);</p>
+<p>			// Number3D.modulo<br />			var distance 	:Number = Math.sqrt(dx*dx+dy*dy+dz*dz);</p>
+<p>			// Move to specified location<br />			this.x = target.world.n14 + (rx * distance);<br />			this.y = target.world.n24 + (ry * distance);<br />			this.z = target.world.n34 + (rz * distance);<br />			this.lookAt(target);<br />		}</p>
+<p></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Kevin Burke</title>
+		<link>http://pv3d.org/2008/11/19/dragging-mouse-for-camera-orbit/comment-page-1/#comment-31010</link>
+		<dc:creator>Kevin Burke</dc:creator>
+		<pubDate>Wed, 13 Oct 2010 18:12:39 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=37#comment-31010</guid>
+		<description>For those seeking an easing camera orbit:&lt;br&gt;&lt;a href=&quot;http://blog.yoz.sk/2010/04/smooth-orbiting-camera-in-papervision-3d&quot; rel=&quot;nofollow&quot;&gt;http://blog.yoz.sk/2010/04/smooth-orbiting-camera-in-papervision-3d&lt;/a&gt;/</description>
+		<content:encoded><![CDATA[<p>For those seeking an easing camera orbit:<br /><a href="http://blog.yoz.sk/2010/04/smooth-orbiting-camera-in-papervision-3d" rel="nofollow">http://blog.yoz.sk/2010/04/smooth-orbiting-camera-in-papervision-3d</a>/</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Andrew</title>
+		<link>http://pv3d.org/2008/11/19/dragging-mouse-for-camera-orbit/comment-page-1/#comment-22834</link>
+		<dc:creator>Andrew</dc:creator>
+		<pubDate>Fri, 30 Apr 2010 08:01:16 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=37#comment-22834</guid>
+		<description>Can this be made to orbit fully around the object targeted?</description>
+		<content:encoded><![CDATA[<p>Can this be made to orbit fully around the object targeted?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Soapstar</title>
+		<link>http://pv3d.org/2008/11/19/dragging-mouse-for-camera-orbit/comment-page-1/#comment-18080</link>
+		<dc:creator>Soapstar</dc:creator>
+		<pubDate>Wed, 10 Feb 2010 18:30:40 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=37#comment-18080</guid>
+		<description>Hey, is there anyway to use this on a .dae model? Ive tried to integrate a dae model but nothing happens! Im sure its something to do with the &#039; cameraTarget:DisplayObject3D = DisplayObject3D.ZERO; &#039; ? Should this be different for a dae model?&lt;br&gt;&lt;br&gt;thanks</description>
+		<content:encoded><![CDATA[<p>Hey, is there anyway to use this on a .dae model? Ive tried to integrate a dae model but nothing happens! Im sure its something to do with the &#39; cameraTarget:DisplayObject3D = DisplayObject3D.ZERO; &#39; ? Should this be different for a dae model?</p>
+<p>thanks</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: NuttyMonk</title>
+		<link>http://pv3d.org/2008/11/19/dragging-mouse-for-camera-orbit/comment-page-1/#comment-13109</link>
+		<dc:creator>NuttyMonk</dc:creator>
+		<pubDate>Mon, 23 Nov 2009 14:56:13 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=37#comment-13109</guid>
+		<description>Thanks for the tutorial and code examples John.
+
+i have a couple of suggestions to changes in this code which makes the camera orbit feel more natural and also gives the user the ability to look at the bottom of the objects.
+
+change these 3 lines of code in the onMouseMove event function...
+
+cameraPitch += differenceY;
+cameraYaw += differenceX;
+
+cameraPitch = cameraPitch &lt; 90 ? cameraPitch : 89.9999;
+
+...to this...
+
+cameraPitch -= differenceY;
+cameraYaw -= differenceX;
+
+cameraPitch = cameraPitch &lt; 180 ? cameraPitch : 179.9999;
+
+Hope that helps someone.
+
+Cheers
+
+NM</description>
+		<content:encoded><![CDATA[<p>Thanks for the tutorial and code examples John.</p>
+<p>i have a couple of suggestions to changes in this code which makes the camera orbit feel more natural and also gives the user the ability to look at the bottom of the objects.</p>
+<p>change these 3 lines of code in the onMouseMove event function&#8230;</p>
+<p>cameraPitch += differenceY;<br />
+cameraYaw += differenceX;</p>
+<p>cameraPitch = cameraPitch &lt; 90 ? cameraPitch : 89.9999;</p>
+<p>&#8230;to this&#8230;</p>
+<p>cameraPitch -= differenceY;<br />
+cameraYaw -= differenceX;</p>
+<p>cameraPitch = cameraPitch &lt; 180 ? cameraPitch : 179.9999;</p>
+<p>Hope that helps someone.</p>
+<p>Cheers</p>
+<p>NM</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: marco</title>
+		<link>http://pv3d.org/2008/11/19/dragging-mouse-for-camera-orbit/comment-page-1/#comment-4814</link>
+		<dc:creator>marco</dc:creator>
+		<pubDate>Fri, 14 Aug 2009 08:17:59 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=37#comment-4814</guid>
+		<description>if you use a camera.moveRight(5); somewhere, and then rotate ....the movement done by camera.moveRight is resetted.</description>
+		<content:encoded><![CDATA[<p>if you use a camera.moveRight(5); somewhere, and then rotate &#8230;.the movement done by camera.moveRight is resetted.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: wonky rat</title>
+		<link>http://pv3d.org/2008/11/19/dragging-mouse-for-camera-orbit/comment-page-1/#comment-4613</link>
+		<dc:creator>wonky rat</dc:creator>
+		<pubDate>Wed, 12 Aug 2009 10:35:30 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=37#comment-4613</guid>
+		<description>Hi how would you add an easeOut tween on the camera orbit when the mouse is released... I&#039;ve tried this but just end up making the object zoom in and out instead of keeping it going round the direction it was going... :S</description>
+		<content:encoded><![CDATA[<p>Hi how would you add an easeOut tween on the camera orbit when the mouse is released&#8230; I&#8217;ve tried this but just end up making the object zoom in and out instead of keeping it going round the direction it was going&#8230; :S</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Dan</title>
+		<link>http://pv3d.org/2008/11/19/dragging-mouse-for-camera-orbit/comment-page-1/#comment-2309</link>
+		<dc:creator>Dan</dc:creator>
+		<pubDate>Fri, 19 Jun 2009 10:30:05 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=37#comment-2309</guid>
+		<description>Great post! Many thanks. Your &quot;oribiting&quot; solution was very helpful! :p</description>
+		<content:encoded><![CDATA[<p>Great post! Many thanks. Your &#8220;oribiting&#8221; solution was very helpful! :p</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: lilly</title>
+		<link>http://pv3d.org/2008/11/19/dragging-mouse-for-camera-orbit/comment-page-1/#comment-1103</link>
+		<dc:creator>lilly</dc:creator>
+		<pubDate>Fri, 20 Mar 2009 14:27:32 +0000</pubDate>
+		<guid isPermaLink="false">http://pv3d.org/?p=37#comment-1103</guid>
+		<description>when i try to load this as. file into a .fla-file 
+
+import flash.display.Loader;
+
+	var loadSWF:Loader = new Loader();
+	loadSWF.x = 100;
+	loadSWF.y = 100;
+	
+	loadSWF.load(new URLRequest(&quot;test.swf&quot;));
+	addChild(loadSWF);
+
+
+i get this error message:
+
+TypeError: Error #1009: Cannot access a property or method of a null object reference.
+at papervisionclass()
+
+
+i debugged it and it throws the error here:
+
+stage.addEventListener(MouseEvent.MOUSE_DOWN, onMouseDown);
+
+
+any idea how to fix it?</description>
+		<content:encoded><![CDATA[<p>when i try to load this as. file into a .fla-file </p>
+<p>import flash.display.Loader;</p>
+<p>	var loadSWF:Loader = new Loader();<br />
+	loadSWF.x = 100;<br />
+	loadSWF.y = 100;</p>
+<p>	loadSWF.load(new URLRequest(&#8220;test.swf&#8221;));<br />
+	addChild(loadSWF);</p>
+<p>i get this error message:</p>
+<p>TypeError: Error #1009: Cannot access a property or method of a null object reference.<br />
+at papervisionclass()</p>
+<p>i debugged it and it throws the error here:</p>
+<p>stage.addEventListener(MouseEvent.MOUSE_DOWN, onMouseDown);</p>
+<p>any idea how to fix it?</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+<!-- WP Super Cache is installed but broken. The path to wp-cache-phase1.php in wp-content/advanced-cache.php must be fixed! -->

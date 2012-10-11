@@ -1,0 +1,503 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-907593-2");
+pageTracker._trackPageview();
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Embedding a Collada File | pv3d.org</title>
+
+
+<link rel="stylesheet" href="../../../../wp-content/themes/demar/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="../../../../feed/index.html" />
+<link rel="pingback" href="../../../../xmlrpc.php" />
+<link rel="shortcut icon" href="../../../../favicon.ico" type="image/x-icon" />
+
+<link rel="alternate" type="application/rss+xml" title="pv3d.org &raquo; Embedding a Collada File Comments Feed" href="feed/index.html" />
+<link rel='stylesheet' id='wp-polls-css'  href='../../../../wp-content/plugins/wp-polls/polls-css59c7.css?ver=2.50' type='text/css' media='all' />
+<link rel='stylesheet' id='shadowbox-css-css'  href='../../../../wp-content/plugins/shadowbox-js/shadowbox/shadowboxccfb.css?ver=3.4.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='shadowbox-extras-css'  href='../../../../wp-content/plugins/shadowbox-js/css/extras2127.css?ver=3.0.0.0' type='text/css' media='screen' />
+<script type='text/javascript' src='http://pv3d.org/wp-includes/js/swfobject.js?ver=2.2-20120417'></script>
+<script type='text/javascript' src='http://pv3d.org/wp-includes/js/jquery/jquery.js?ver=1.7.2'></script>
+<script type='text/javascript' src='../../../../wp-content/plugins/google-analyticator/external-tracking.min7923.js?ver=5.3.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://pv3d.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Papervision3D Sound Spectrum' href='../papervision3d-sound-spectrum/index.html' />
+<link rel='next' title='Collada with CellShader and PointLight3D' href='../../07/collada-with-cellshader-and-pointlight3d/index.html' />
+<meta name="generator" content="WordPress 3.4.2" />
+<link rel='canonical' href='index.html' />
+<link rel='shortlink' href='../../../../indexe8f5.html?p=183' />
+
+<!-- All in One SEO Pack 1.6.7 by Michael Torbert of Semper Fi Web Design[699,763] -->
+<meta name="description" content="source package { import flash.display.Bitmap; import flash.events.MouseEvent; import flash.utils.ByteArray; import" />
+<meta name="keywords" content="dae,mouse,orbit,examples,requests" />
+<!-- /all in one seo pack -->
+<link rel="stylesheet" href="../../../../../disqus.com/stylesheets/pv3d/disqus3661.css?v=2.0" type="text/css" media="screen" /><!-- Google Analytics Tracking by Google Analyticator 5.3.1: http://plugins.spiralwebconsulting.com/analyticator.html -->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+
+	<script type="text/javascript">
+	try {
+		var pageTracker = _gat._getTracker("UA-907593-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+	} catch(err) {}</script>
+			<script type="text/javascript">
+				var analyticsFileTypes = ['jpg',' png',' swf',' zip',' mp4',' avi'];
+				var analyticsEventTracking = 'enabled';
+			</script>
+			<style type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('../../../../wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+</style>
+
+<link rel="stylesheet" href="../../../../wp-content/plugins/wp-syntax/wp-syntax.css" type="text/css" media="screen" />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+</head>
+
+<body>
+
+<div id="page">
+
+<div id="header">
+
+	<!-- <h1><a href="http://pv3d.org">pv3d.org</a></h1> -->
+	<h2 id="blog-description">Papervision3D, ActionScript, and Flex examples and tutorials by John Lindquist</h2>
+
+<a href="../../../../index.html"><img src="../../../../logo.png" width="300px"></img</a>
+
+<!-- <a href="http://www.richmediainstitute.com/papervision_Chicago_09"><img src="http://dl.getdropbox.com/u/132579/sites/pv3d.org/images/chicagotraining.jpg" align="right"></img</a> -->
+
+
+	<ul>
+		<li class="page_item "><a href="../../../../index.html">home</a></li>
+		<li class="page_item page-item-2"><a href="../../../../about/index.html">about</a></li>
+<li class="page_item page-item-46"><a href="../../../../docs/index.html">docs</a></li>
+<li class="page_item page-item-67"><a href="../../../../requests/index.html">requests</a></li>
+<li class="page_item page-item-62"><a href="../../../../faq/index.html">faq</a></li>
+<li class="page_item page-item-264"><a href="../../../../sitemap/index.html">archive</a></li>
+	</ul><div class="clear"></div>
+
+</div><!-- end header -->
+	<div id="content">
+	
+		<div id="content-left">
+
+		
+			
+			<div class="box-left" id="post-183">
+			
+				<h3><a href="index.html" rel="bookmark" title="Embedding a Collada File">Embedding a Collada File</a></h3>
+				<div class="meta">
+					<span class="meta-date">Saturday, December 6th, 2008</span> | 
+					<span class="meta-categories"><a href="../../../../category/examples/index.html" title="View all posts in examples" rel="category tag">examples</a>, <a href="../../../../category/requests/index.html" title="View all posts in requests" rel="category tag">requests</a></span>
+				</div>
+				
+				<p><a href="http://dl.getdropbox.com/u/132579/sites/pv3d.org/examples/dae/ColladaExample.swf" rel="shadowbox;width=640;height=480;"><img src="../../../../../dl.getdropbox.com/u/132579/sites/pv3d.org/examples/dae/ColladaExample.png"></img></a><br />
+<a href="http://dl.getdropbox.com/u/132579/sites/pv3d.org/examples/dae/ColladaSetup.zip">source</a></p>
+
+<div class="wp_syntax"><div class="code"><pre class="java" style="font-family:monospace;"><span style="color: #000000; font-weight: bold;">package</span>
+<span style="color: #009900;">&#123;</span>
+	<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">flash.display.Bitmap</span><span style="color: #339933;">;</span>
+	<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">flash.events.MouseEvent</span><span style="color: #339933;">;</span>
+	<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">flash.utils.ByteArray</span><span style="color: #339933;">;</span>
+&nbsp;
+	<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">org.papervision3d.materials.BitmapMaterial</span><span style="color: #339933;">;</span>
+	<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">org.papervision3d.objects.parsers.DAE</span><span style="color: #339933;">;</span>
+	<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">org.papervision3d.render.QuadrantRenderEngine</span><span style="color: #339933;">;</span>
+	<span style="color: #000000; font-weight: bold;">import</span> <span style="color: #006699;">org.papervision3d.view.BasicView</span><span style="color: #339933;">;</span>
+&nbsp;
+	<span style="color: #009900;">&#91;</span>SWF<span style="color: #009900;">&#40;</span>width<span style="color: #339933;">=</span><span style="color: #0000ff;">&quot;640&quot;</span>, height<span style="color: #339933;">=</span><span style="color: #0000ff;">&quot;480&quot;</span>, backgroundColor<span style="color: #339933;">=</span><span style="color: #0000ff;">&quot;#000000&quot;</span>, frameRate<span style="color: #339933;">=</span><span style="color: #0000ff;">&quot;60&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#93;</span>
+	<span style="color: #000000; font-weight: bold;">public</span> <span style="color: #000000; font-weight: bold;">class</span> ColladaExample <span style="color: #000000; font-weight: bold;">extends</span> BasicView
+	<span style="color: #009900;">&#123;</span>
+		<span style="color: #009900;">&#91;</span>Embed<span style="color: #009900;">&#40;</span>source<span style="color: #339933;">=</span><span style="color: #0000ff;">&quot;assets/c.DAE&quot;</span>, mimeType <span style="color: #339933;">=</span> <span style="color: #0000ff;">&quot;application/octet-stream&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#93;</span>
+		<span style="color: #000000; font-weight: bold;">private</span> var daeAsset<span style="color: #339933;">:</span><span style="color: #000000; font-weight: bold;">Class</span><span style="color: #339933;">;</span>
+&nbsp;
+		<span style="color: #009900;">&#91;</span>Embed<span style="color: #009900;">&#40;</span>source<span style="color: #339933;">=</span><span style="color: #0000ff;">&quot;assets/materials/c.png&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#93;</span>
+		<span style="color: #000000; font-weight: bold;">private</span> var materialAsset<span style="color: #339933;">:</span><span style="color: #000000; font-weight: bold;">Class</span><span style="color: #339933;">;</span>
+&nbsp;
+		<span style="color: #000000; font-weight: bold;">private</span> var cameraPitch<span style="color: #339933;">:</span><span style="color: #003399;">Number</span> <span style="color: #339933;">=</span> <span style="color: #cc66cc;">90</span><span style="color: #339933;">;</span>
+		<span style="color: #000000; font-weight: bold;">private</span> var cameraYaw<span style="color: #339933;">:</span><span style="color: #003399;">Number</span> <span style="color: #339933;">=</span> <span style="color: #cc66cc;">270</span><span style="color: #339933;">;</span>
+		<span style="color: #000000; font-weight: bold;">private</span> var isOrbiting<span style="color: #339933;">:</span><span style="color: #003399;">Boolean</span> <span style="color: #339933;">=</span> <span style="color: #000066; font-weight: bold;">false</span><span style="color: #339933;">;</span>
+		<span style="color: #000000; font-weight: bold;">private</span> var previousMouseX<span style="color: #339933;">:</span><span style="color: #003399;">Number</span><span style="color: #339933;">;</span>
+		<span style="color: #000000; font-weight: bold;">private</span> var previousMouseY<span style="color: #339933;">:</span><span style="color: #003399;">Number</span><span style="color: #339933;">;</span>
+&nbsp;
+		<span style="color: #000000; font-weight: bold;">public</span> function ColladaExample<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span>
+		<span style="color: #009900;">&#123;</span>
+			var byteArray<span style="color: #339933;">:</span>ByteArray <span style="color: #339933;">=</span> <span style="color: #000000; font-weight: bold;">new</span> daeAsset<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span> as ByteArray<span style="color: #339933;">;</span>
+			var dae<span style="color: #339933;">:</span>DAE <span style="color: #339933;">=</span> <span style="color: #000000; font-weight: bold;">new</span> DAE<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			dae.<span style="color: #006633;">load</span><span style="color: #009900;">&#40;</span>byteArray<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+&nbsp;
+			var bitmap<span style="color: #339933;">:</span>Bitmap <span style="color: #339933;">=</span> <span style="color: #000000; font-weight: bold;">new</span> materialAsset<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span> as Bitmap<span style="color: #339933;">;</span>
+			var bitmapMaterial<span style="color: #339933;">:</span>BitmapMaterial <span style="color: #339933;">=</span> <span style="color: #000000; font-weight: bold;">new</span> BitmapMaterial<span style="color: #009900;">&#40;</span>bitmap.<span style="color: #006633;">bitmapData</span>, <span style="color: #000066; font-weight: bold;">true</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			dae.<span style="color: #006633;">materials</span>.<span style="color: #006633;">addMaterial</span><span style="color: #009900;">&#40;</span>bitmapMaterial, <span style="color: #0000ff;">&quot;cMaterial&quot;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+&nbsp;
+			scene.<span style="color: #006633;">addChild</span><span style="color: #009900;">&#40;</span>dae<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+&nbsp;
+			startRendering<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+&nbsp;
+			stage.<span style="color: #006633;">addEventListener</span><span style="color: #009900;">&#40;</span><span style="color: #003399;">MouseEvent</span>.<span style="color: #006633;">MOUSE_DOWN</span>, onMouseDown<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			stage.<span style="color: #006633;">addEventListener</span><span style="color: #009900;">&#40;</span><span style="color: #003399;">MouseEvent</span>.<span style="color: #006633;">MOUSE_MOVE</span>, onMouseMove<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			stage.<span style="color: #006633;">addEventListener</span><span style="color: #009900;">&#40;</span><span style="color: #003399;">MouseEvent</span>.<span style="color: #006633;">MOUSE_UP</span>, onMouseUp<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			stage.<span style="color: #006633;">addEventListener</span><span style="color: #009900;">&#40;</span><span style="color: #003399;">MouseEvent</span>.<span style="color: #006633;">MOUSE_WHEEL</span>, mouseWheelHandler<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+		<span style="color: #009900;">&#125;</span>
+&nbsp;
+		<span style="color: #000000; font-weight: bold;">private</span> function mouseWheelHandler<span style="color: #009900;">&#40;</span>event<span style="color: #339933;">:</span><span style="color: #003399;">MouseEvent</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">:</span><span style="color: #000066; font-weight: bold;">void</span>
+		<span style="color: #009900;">&#123;</span>
+			camera.<span style="color: #006633;">moveForward</span><span style="color: #009900;">&#40;</span><span style="color: #cc66cc;">10</span> <span style="color: #339933;">*</span> event.<span style="color: #006633;">delta</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+		<span style="color: #009900;">&#125;</span>
+&nbsp;
+		<span style="color: #000000; font-weight: bold;">private</span> function onMouseDown<span style="color: #009900;">&#40;</span>event<span style="color: #339933;">:</span><span style="color: #003399;">MouseEvent</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">:</span><span style="color: #000066; font-weight: bold;">void</span>
+		<span style="color: #009900;">&#123;</span>
+			isOrbiting <span style="color: #339933;">=</span> <span style="color: #000066; font-weight: bold;">true</span><span style="color: #339933;">;</span>
+			previousMouseX <span style="color: #339933;">=</span> event.<span style="color: #006633;">stageX</span><span style="color: #339933;">;</span>
+			previousMouseY <span style="color: #339933;">=</span> event.<span style="color: #006633;">stageY</span><span style="color: #339933;">;</span>
+		<span style="color: #009900;">&#125;</span>
+&nbsp;
+		<span style="color: #000000; font-weight: bold;">private</span> function onMouseUp<span style="color: #009900;">&#40;</span>event<span style="color: #339933;">:</span><span style="color: #003399;">MouseEvent</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">:</span><span style="color: #000066; font-weight: bold;">void</span>
+		<span style="color: #009900;">&#123;</span>
+			isOrbiting <span style="color: #339933;">=</span> <span style="color: #000066; font-weight: bold;">false</span><span style="color: #339933;">;</span>
+		<span style="color: #009900;">&#125;</span>
+&nbsp;
+		<span style="color: #000000; font-weight: bold;">private</span> function onMouseMove<span style="color: #009900;">&#40;</span>event<span style="color: #339933;">:</span><span style="color: #003399;">MouseEvent</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">:</span><span style="color: #000066; font-weight: bold;">void</span>
+		<span style="color: #009900;">&#123;</span>
+			var differenceX<span style="color: #339933;">:</span><span style="color: #003399;">Number</span> <span style="color: #339933;">=</span> event.<span style="color: #006633;">stageX</span> <span style="color: #339933;">-</span> previousMouseX<span style="color: #339933;">;</span>
+			var differenceY<span style="color: #339933;">:</span><span style="color: #003399;">Number</span> <span style="color: #339933;">=</span> event.<span style="color: #006633;">stageY</span> <span style="color: #339933;">-</span> previousMouseY<span style="color: #339933;">;</span>
+&nbsp;
+			<span style="color: #000000; font-weight: bold;">if</span><span style="color: #009900;">&#40;</span>isOrbiting<span style="color: #009900;">&#41;</span>
+			<span style="color: #009900;">&#123;</span>
+				cameraPitch <span style="color: #339933;">+=</span> differenceY<span style="color: #339933;">;</span>
+				cameraYaw <span style="color: #339933;">+=</span> differenceX<span style="color: #339933;">;</span>
+&nbsp;
+				cameraPitch <span style="color: #339933;">%=</span> <span style="color: #cc66cc;">360</span><span style="color: #339933;">;</span>
+				cameraYaw <span style="color: #339933;">%=</span> <span style="color: #cc66cc;">360</span><span style="color: #339933;">;</span>
+&nbsp;
+				cameraPitch <span style="color: #339933;">=</span> cameraPitch <span style="color: #339933;">&gt;</span> <span style="color: #cc66cc;">0</span> <span style="color: #339933;">?</span> cameraPitch <span style="color: #339933;">:</span> <span style="color: #cc66cc;">0.0001</span><span style="color: #339933;">;</span>
+				cameraPitch <span style="color: #339933;">=</span> cameraPitch <span style="color: #339933;">&lt;</span> <span style="color: #cc66cc;">90</span> <span style="color: #339933;">?</span> cameraPitch <span style="color: #339933;">:</span> <span style="color: #cc66cc;">89.9999</span><span style="color: #339933;">;</span>
+&nbsp;
+				previousMouseX <span style="color: #339933;">=</span> event.<span style="color: #006633;">stageX</span><span style="color: #339933;">;</span>
+				previousMouseY <span style="color: #339933;">=</span> event.<span style="color: #006633;">stageY</span><span style="color: #339933;">;</span>
+&nbsp;
+				camera.<span style="color: #006633;">orbit</span><span style="color: #009900;">&#40;</span>cameraPitch, cameraYaw<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+			<span style="color: #009900;">&#125;</span>
+		<span style="color: #009900;">&#125;</span>
+&nbsp;
+	<span style="color: #009900;">&#125;</span>
+<span style="color: #009900;">&#125;</span></pre></div></div>
+
+				
+				<p class="tags">Tags: <a href="../../../../tag/dae/index.html" rel="tag">dae</a>, <a href="../../../../tag/mouse/index.html" rel="tag">mouse</a>, <a href="../../../../tag/orbit/index.html" rel="tag">orbit</a></p>			
+			<div class="clear"></div></div>
+			
+			
+<div id="disqus_thread">
+	<div id="dsq-content">
+		<ul id="dsq-comments">
+			<div id="comment-31415449"></div>
+
+			<li id="dsq-comment-31415449">
+				<div id="dsq-comment-header-31415449" class="dsq-comment-header">
+					<cite id="dsq-cite-31415449">
+						<a id="dsq-author-user-31415449" href="http://minsh.net/" target="_blank" rel="nofollow">Barbara</a>
+					</cite>
+				</div>
+				<div id="dsq-comment-body-31415449" class="dsq-comment-body">
+					<div id="dsq-comment-message-31415449" class="dsq-comment-message"><p>Hi!<br>Thanks for this great tutorial! I&#39;m familiar with collada, but it&#39;s the first time I try to load dae files into PV3D. One question: is it not possible for PV3D to read the  from dae and directly apply the correct material to the correct geometry (as they are bound in the visual scene)? What&#39;s the use of visual_scenes if one cannot directly import a whole scene into PV3D? Or is it possible?</p></div>
+				</div>
+			</li>
+			<div id="comment-31415448"></div>
+
+			<li id="dsq-comment-31415448">
+				<div id="dsq-comment-header-31415448" class="dsq-comment-header">
+					<cite id="dsq-cite-31415448">
+						<a id="dsq-author-user-31415448" href="http://nikitadudnik.com/blog" target="_blank" rel="nofollow">Nek</a>
+					</cite>
+				</div>
+				<div id="dsq-comment-body-31415448" class="dsq-comment-body">
+					<div id="dsq-comment-message-31415448" class="dsq-comment-message"><p>Embedding resources is vital for online flash game making &#39;cause most of portals accept game only as single swf file. This makes your tutorial really valuable. Thanks!</p></div>
+				</div>
+			</li>
+			<div id="comment-31415447"></div>
+
+			<li id="dsq-comment-31415447">
+				<div id="dsq-comment-header-31415447" class="dsq-comment-header">
+					<cite id="dsq-cite-31415447">
+						<span id="dsq-author-user-31415447">Denis</span>
+					</cite>
+				</div>
+				<div id="dsq-comment-body-31415447" class="dsq-comment-body">
+					<div id="dsq-comment-message-31415447" class="dsq-comment-message"><p>I am interesting how to add to it possibility to move camera above scene in horizontal and vertical directions?</p></div>
+				</div>
+			</li>
+			<div id="comment-31415446"></div>
+
+			<li id="dsq-comment-31415446">
+				<div id="dsq-comment-header-31415446" class="dsq-comment-header">
+					<cite id="dsq-cite-31415446">
+						<span id="dsq-author-user-31415446">sugilie</span>
+					</cite>
+				</div>
+				<div id="dsq-comment-body-31415446" class="dsq-comment-body">
+					<div id="dsq-comment-message-31415446" class="dsq-comment-message"><p>really good tutorial, gotta try it out!</p></div>
+				</div>
+			</li>
+			<div id="comment-31415445"></div>
+
+			<li id="dsq-comment-31415445">
+				<div id="dsq-comment-header-31415445" class="dsq-comment-header">
+					<cite id="dsq-cite-31415445">
+						<span id="dsq-author-user-31415445">John Lindquist</span>
+					</cite>
+				</div>
+				<div id="dsq-comment-body-31415445" class="dsq-comment-body">
+					<div id="dsq-comment-message-31415445" class="dsq-comment-message"><p>@Trevor - good point. I&#39;ll avoid using the mousewheel for camera control in the future :/</p></div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<a href="http://disqus.com/" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<script type="text/javascript" charset="utf-8">
+	var disqus_url = 'index.html';
+	var disqus_container_id = 'disqus_thread';
+	var facebookXdReceiverPath = '../../../../wp-content/plugins/disqus-comment-system/xd_receiver.htm';
+</script>
+
+<script type="text/javascript" charset="utf-8">
+	var DsqLocal = {
+		'trackbacks': [
+		],
+		'trackback_url': 'http://pv3d.org/2008/12/06/embedding-a-collada-file/trackback/'
+	};
+</script>
+
+<script type="text/javascript" charset="utf-8" src="../../../../../pv3d.disqus.com/disqus19da.js?v=2.0&amp;slug=embedding_a_collada_file&amp;pname=wordpress&amp;pver=2.12"></script>
+		
+				
+			
+	  </div><!-- end content-left -->
+	  
+	  <div id="content-right">
+		
+		
+<div id="text-269605421" class="box-right">			<div class="textwidget"><p><a href="http://feeds2.feedburner.com/pv3d/johnlindquist" rel="alternate" type="application/rss+xml"><img src="../../../../../www.feedburner.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="http://feeds2.feedburner.com/pv3d/johnlindquist" rel="alternate" type="application/rss+xml">Subscribe to the pv3d.org feed!</a></p>
+
+<p><img src="../../../../../dl.getdropbox.com/u/132579/sites/pv3d.org/images/Twitter-16x16.png"/><a href="http://twitter.com/johnlindquist">Follow me on Twitter</a></p>
+
+<p><img src="../../../../../forum.papervision3d.org/images/favicon_blue.gif"/><a href="http://forum.papervision3d.org/">Visit the Papervision3D Forum</a></p></div>
+		</div>    	<div class="box-right">
+		<h4>Search</h4>
+			<div id="searchform">
+				<form method="get" action="http://pv3d.org/">
+					<input type="text" value="search..." onfocus="if (this.value == 'search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'search...';}" name="s" id="search" />
+					<input type="submit" id="search-submit" name="submit" value="GO" />
+				</form>
+			</div>
+		</div>
+	
+<div id="text-476645932" class="box-right">			<div class="textwidget"></div>
+		</div><div id="text-476645931" class="box-right"><h4>Recommended Books</h4>			<div class="textwidget"><iframe src="http://rcm.amazon.com/e/cm?t=flyoasac-20&amp;o=1&amp;p=8&amp;l=as1&amp;asins=1847195725&amp;fc1=000000&amp;IS2=1&amp;lt1=_blank&amp;m=amazon&amp;lc1=0000FF&amp;bc1=000000&amp;bg1=FFFFFF&amp;f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe><iframe src="http://rcm.amazon.com/e/cm?lt1=_blank&amp;bc1=000000&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=flyoasac-20&amp;o=1&amp;p=8&amp;l=as1&amp;m=amazon&amp;f=ifr&amp;md=10FE9736YVPPT7A0FBG2&amp;asins=0321643364" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+</div>
+		</div><div id="text-476645933" class="box-right"><h4>Speaking at FITC Toronto</h4>			<div class="textwidget"><a href="http://www.fitc.ca/events/presentations/presentation.cfm?event=102&amp;presentation_id=1126"><img src="http://www.fitc.ca/events/extras/toronto/2010/banners/FITC_Toronto2010_200x100.jpeg"/></a></div>
+		</div>		<div id="recent-posts-2" class="box-right">		<h4>Recent Posts</h4>		<ul>
+				<li><a href="../../../../2010/05/25/moving-to-johnlindquist-com/index.html" title="Moving to johnlindquist.com">Moving to johnlindquist.com</a></li>
+				<li><a href="http://johnlindquist.com/2010/05/19/asynccommand-with-robotlegs-signals-flight-minimalcomps/" title="AsyncCommand with Robotlegs, Signals, Flight, MinimalComps">AsyncCommand with Robotlegs, Signals, Flight, MinimalComps</a></li>
+				<li><a href="http://johnlindquist.com/2010/04/18/search-widget-robotlegs-signals-flight-minimal-comps-yahoo-astra/" title="Search Widget &#8211; Robotlegs, Signals, Flight, Minimal Comps, Yahoo Astra">Search Widget &#8211; Robotlegs, Signals, Flight, Minimal Comps, Yahoo Astra</a></li>
+				<li><a href="../../../../2010/03/13/fdt-super-awesome-march-deal/index.html" title="FDT Super Awesome March Deal">FDT Super Awesome March Deal</a></li>
+				<li><a href="http://johnlindquist.com/2010/01/27/haxe-tutorial/" title="haXe Tutorial">haXe Tutorial</a></li>
+				<li><a href="http://johnlindquist.com/2010/01/21/as3-signals-tutorial/" title="AS3 Signals Tutorial">AS3 Signals Tutorial</a></li>
+				<li><a href="../../../../2010/01/15/preferred-video-tutorial-resolution/index.html" title="Preferred Video Tutorial Resolution?">Preferred Video Tutorial Resolution?</a></li>
+				<li><a href="../../../../2009/12/18/tweenmax-tweening-a-timeline-advanced-tweening/index.html" title="TweenMax &#8211; Tweening a timeline (Advanced Tweening)">TweenMax &#8211; Tweening a timeline (Advanced Tweening)</a></li>
+				<li><a href="../../../../2009/12/12/robotlegs-flight-union-platform/index.html" title="Robotlegs + Flight + Union Platform">Robotlegs + Flight + Union Platform</a></li>
+				<li><a href="../../../../2009/12/08/back-in-the-saddle/index.html" title="Back in the saddle">Back in the saddle</a></li>
+				<li><a href="../../../../2009/11/21/eclipse-theme-designer-preview/index.html" title="Eclipse Theme Designer Preview">Eclipse Theme Designer Preview</a></li>
+				<li><a href="http://johnlindquist.com/2009/11/18/robotlegs-hello-world-video-tutorial/" title="RobotLegs Hello World Video Tutorial">RobotLegs Hello World Video Tutorial</a></li>
+				<li><a href="http://johnlindquist.com/2009/08/28/10-things-every-senior-flash-developer-should-know/" title="10 Things Every Senior Flash Developer Should Know">10 Things Every Senior Flash Developer Should Know</a></li>
+				<li><a href="../../../../2009/08/07/efflex-3d-effects-for-flex/index.html" title="Efflex &#8211; 3D Effects for Flex">Efflex &#8211; 3D Effects for Flex</a></li>
+				<li><a href="../../../../2009/07/03/morphcontroller-mighty-morphing-papervision3d/index.html" title="MorphController &#8211; Mighty Morphing Papervision3D">MorphController &#8211; Mighty Morphing Papervision3D</a></li>
+				</ul>
+		</div><div id="recent-comments-2" class="box-right"><h4>Recent Comments</h4><ul id="recentcomments"><li class="recentcomments">Camisetas futbol on <a href="../../20/papervision3d-with-box2dflash-hello-world/comment-page-1/index.html#comment-35388">Papervision3D with Box2DFlash Hello World</a></li><li class="recentcomments">Farawla on <a href="../../../../requests/comment-page-5/index.html#comment-35387">requests</a></li><li class="recentcomments">Farawla on <a href="../../../../2009/03/12/augmented-reality-flartoolkit-demo-reel/comment-page-1/index.html#comment-35386">Augmented Reality &#8211; FLARToolKit Demo Reel with Source!</a></li><li class="recentcomments">athena on <a href="../../../../2009/12/18/tweenmax-tweening-a-timeline-advanced-tweening/comment-page-2/index.html#comment-35384">TweenMax &#8211; Tweening a timeline (Advanced Tweening)</a></li><li class="recentcomments"><a href='http://www.camisetas-baratas-de-futbol.com/' rel='external nofollow' class='url'>camisetas de fútbol</a> on <a href="../../20/papervision3d-with-box2dflash-hello-world/comment-page-1/index.html#comment-35383">Papervision3D with Box2DFlash Hello World</a></li><li class="recentcomments"><a href='http://www.josephinehome.co.uk/by-department/bedroom/cushions.html' rel='external nofollow' class='url'>miclke</a> on <a href="../../../../2009/08/07/efflex-3d-effects-for-flex/comment-page-1/index.html#comment-35382">Efflex &#8211; 3D Effects for Flex</a></li><li class="recentcomments"><a href='http://www.spielgeld-casinos.com/' rel='external nofollow' class='url'>spielgeld casinos</a> on <a href="../../../../2009/03/12/augmented-reality-recursive-webcam/comment-page-3/index.html#comment-35381">Augmented Reality &#8211; Recursive Webcam</a></li><li class="recentcomments">Rajat Jain2012 on <a href="../../20/papervision3d-with-box2dflash-hello-world/comment-page-1/index.html#comment-35374">Papervision3D with Box2DFlash Hello World</a></li><li class="recentcomments"><a href='http://www.lawschoolpersonalstatement.biz/law-school-personal-statement-help/' rel='external nofollow' class='url'>law school application help</a> on <a href="../../../../2009/07/01/test-if-a-plane-is-within-the-view-of-the-camera-aka-testing-if-culled/comment-page-1/index.html#comment-35375">Test if a plane is within the view of the camera (aka testing if culled)</a></li><li class="recentcomments"><a href='http://www.lawschoolpersonalstatement.biz/law-school-personal-statement-help/' rel='external nofollow' class='url'>law school application help</a> on <a href="../../../../2009/07/01/maya-texture-baking/comment-page-1/index.html#comment-35377">Maya Texture Baking</a></li></ul></div><div id="categories-269605422" class="box-right"><h4>Categories</h4>		<ul>
+	<li class="cat-item cat-item-73"><a href="../../../../category/actionscript-3/index.html" title="View all posts filed under ActionScript 3">ActionScript 3</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="../../../../category/announcements/index.html" title="View all posts filed under announcements">announcements</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="../../../../category/examples/index.html" title="View all posts filed under examples">examples</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="../../../../category/flex/index.html" title="View all posts filed under flex">flex</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="../../../../category/how-it-works/index.html" title="View all posts filed under how it works">how it works</a>
+</li>
+	<li class="cat-item cat-item-38"><a href="../../../../category/requests/index.html" title="View all posts filed under requests">requests</a>
+</li>
+	<li class="cat-item cat-item-92"><a href="../../../../category/roundarch/index.html" title="View all posts filed under roundarch">roundarch</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="../../../../category/snippets/index.html" title="View all posts filed under snippets">snippets</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="../../../../category/tutorials/index.html" title="View all posts filed under tutorials">tutorials</a>
+</li>
+	<li class="cat-item cat-item-74"><a href="../../../../category/videos/index.html" title="View all posts filed under videos">videos</a>
+</li>
+		</ul>
+</div><div id="calendar-2" class="box-right"><h4>&nbsp;</h4><div id="calendar_wrap"><table id="wp-calendar">
+	<caption>December 2008</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Monday">M</th>
+		<th scope="col" title="Tuesday">T</th>
+		<th scope="col" title="Wednesday">W</th>
+		<th scope="col" title="Thursday">T</th>
+		<th scope="col" title="Friday">F</th>
+		<th scope="col" title="Saturday">S</th>
+		<th scope="col" title="Sunday">S</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="../../../11/index.html" title="View posts for November 2008">&laquo; Nov</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next"><a href="../../../../2009/01/index.html" title="View posts for January 2009">Jan &raquo;</a></td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr><td><a href="../../01/index.html" title="Carousel with proper rotation and reflection, BitmapViewportMaterial Example, The Strategy Pattern &#8211; Changing Behavior">1</a></td><td><a href="../../02/index.html" title="Plane with two different sides">2</a></td><td>3</td><td><a href="../../04/index.html" title="Updated Downloads, 3ds max texture baking for Papervision3D, Neat camera and arrows thingy, Tweening vertices">4</a></td><td>5</td><td><a href="../index.html" title="What is BasicView?, Papervision3D Sound Spectrum, Embedding a Collada File">6</a></td><td><a href="../../07/index.html" title="Collada with CellShader and PointLight3D, Animating a Collada File from 3ds max, Using a Viewport as a Mask">7</a></td>
+	</tr>
+	<tr>
+		<td><a href="../../08/index.html" title="Papervision3D now includes VectorVision, VectorVision Hello World">8</a></td><td><a href="../../09/index.html" title="Dragging Spheres, Portal, Papervision3D Wins .net Magazine 2008 Innovation of the Year">9</a></td><td>10</td><td><a href="../../11/index.html" title="Swapping a Plane with a MovieClip, Hosting problems">11</a></td><td><a href="../../12/index.html" title="Per Face Material">12</a></td><td><a href="../../13/index.html" title="Swapping materials on faces, TriangleMesh3D &#8211; Create your own mesh">13</a></td><td>14</td>
+	</tr>
+	<tr>
+		<td><a href="../../15/index.html" title="Flint Particle System with Papervision3D">15</a></td><td>16</td><td>17</td><td>18</td><td><a href="../../19/index.html" title="Shaders / ShadedMaterial Example, Dragging Planes and lookAt Camera">19</a></td><td><a href="../../20/index.html" title="Papervision3D with Box2DFlash Hello World, Papervision3D with Box2DFlash Part 2, Papervision3D with Box2DFlash &#8211; Part 3 Adding Mouse Interaction, Cube with different sides &#8211; MaterialsList">20</a></td><td><a href="../../21/index.html" title=".swc and .zip updated to revision 851, Papervision3D with AS3Dmod Hello World Example">21</a></td>
+	</tr>
+	<tr>
+		<td><a href="../../22/index.html" title="Flint Pixels, Papervision3D with Box2DFlash Part 4 &#8211; Distance Joint, Flint Pixels 2 &#8211; Random Drift and Rotate Emitter">22</a></td><td>23</td><td><a href="../../24/index.html" title="Merry Christmas!">24</a></td><td>25</td><td><a href="../../26/index.html" title="Switching a MovieMaterial on the face of a Cube &#8211; replaceMaterialByName">26</a></td><td>27</td><td><a href="../../28/index.html" title="Click then Tween Camera to Plane">28</a></td>
+	</tr>
+	<tr>
+		<td><a href="../../29/index.html" title="Quaternion Explorer">29</a></td><td><a href="../../30/index.html" title="Slerp Explorer">30</a></td><td><a href="../../31/index.html" title="Happy New Year!">31</a></td>
+		<td class="pad" colspan="4">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></div><div id="archives-2" class="box-right"><h4>Archives</h4>		<ul>
+			<li><a href='../../../../2010/05/index.html' title='May 2010'>May 2010</a></li>
+	<li><a href='../../../../2010/04/index.html' title='April 2010'>April 2010</a></li>
+	<li><a href='../../../../2010/03/index.html' title='March 2010'>March 2010</a></li>
+	<li><a href='../../../../2010/01/index.html' title='January 2010'>January 2010</a></li>
+	<li><a href='../../../../2009/12/index.html' title='December 2009'>December 2009</a></li>
+	<li><a href='../../../../2009/11/index.html' title='November 2009'>November 2009</a></li>
+	<li><a href='../../../../2009/08/index.html' title='August 2009'>August 2009</a></li>
+	<li><a href='../../../../2009/07/index.html' title='July 2009'>July 2009</a></li>
+	<li><a href='../../../../2009/06/index.html' title='June 2009'>June 2009</a></li>
+	<li><a href='../../../../2009/05/index.html' title='May 2009'>May 2009</a></li>
+	<li><a href='../../../../2009/04/index.html' title='April 2009'>April 2009</a></li>
+	<li><a href='../../../../2009/03/index.html' title='March 2009'>March 2009</a></li>
+	<li><a href='../../../../2009/02/index.html' title='February 2009'>February 2009</a></li>
+	<li><a href='../../../../2009/01/index.html' title='January 2009'>January 2009</a></li>
+	<li><a href='../../index.html' title='December 2008'>December 2008</a></li>
+	<li><a href='../../../11/index.html' title='November 2008'>November 2008</a></li>
+		</ul>
+</div><div id="text-307918771" class="box-right">			<div class="textwidget"><script type="text/javascript" src="../../../../../widgets.amung.us/map.js"></script><script type="text/javascript">WAU_map('ltga1hpt7x0t', 220, 110, 'green', 'default-red')</script></div>
+		</div><div id="polls-widget-3" class="box-right"><div id="polls-2" class="wp-polls">
+		<p style="text-align: center;"><strong>Preferred Video Tutorial Resolution</strong></p><div id="polls-2-ans" class="wp-polls-ans"><ul class="wp-polls-ul">
+		<li>1024x768 <small>(53%, 85 Votes)</small><div class="pollbar" style="width: 53%;" title="1024x768 (53% | 85 Votes)"></div></li>
+		<li>1280x1024 <small>(15%, 24 Votes)</small><div class="pollbar" style="width: 15%;" title="1280x1024 (15% | 24 Votes)"></div></li>
+		<li>1920x1080 <small>(15%, 24 Votes)</small><div class="pollbar" style="width: 15%;" title="1920x1080 (15% | 24 Votes)"></div></li>
+		<li>800x600 <small>(13%, 20 Votes)</small><div class="pollbar" style="width: 13%;" title="800x600 (13% | 20 Votes)"></div></li>
+		<li>480x320 <small>(4%, 6 Votes)</small><div class="pollbar" style="width: 4%;" title="480x320 (4% | 6 Votes)"></div></li>
+		<li>640x480 <small>(0%, 2 Votes)</small><div class="pollbar" style="width: 1%;" title="640x480 (0% | 2 Votes)"></div></li>
+		</ul><p style="text-align: center;">Total Voters: <strong>160</strong></p></div>
+</div>
+<div id="polls-2-loading" class="wp-polls-loading"><img src="../../../../wp-content/plugins/wp-polls/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="wp-polls-image" />&nbsp;Loading ...</div>
+</div>	  
+</div><!-- end content-right -->	  
+	  <div class="clear"></div>
+	
+</div><!-- end content -->
+	
+</div><!-- end page -->
+
+<div id="footer-wrap">
+
+	<div id="footer">
+	
+		<div id="legal"><a href="../../../../index.html">pv3d.org</a> is powered by <a href="http://wordpress.org/">WordPress</a>.</div>
+		
+		<div id="webdemar"><a href="http://webdemar.com/" title="WordPress Themes">WordPress Themes</a> by webdemar.</div>
+		
+		<div class="clear"></div>
+	
+	</div>
+
+</div><!-- end footer-wrap -->
+
+<!-- Begin Shadowbox JS -->
+<script type="text/javascript">
+	var shadowbox_conf = {
+		adapter: "jquery",
+		language: "en",
+		players: ["flv","html","iframe","img","qt","swf","wmp"],
+		animate: true,
+		animateFade: true,
+		animSequence: "wh",
+		autoDimensions: false,
+		modal: false,
+		showOverlay: true,
+		overlayColor: "#000",
+		overlayOpacity: 0.8,
+		flashBgColor: "#000000",
+		autoplayMovies: true,
+		showMovieControls: true,
+		slideshowDelay: 0,
+		resizeDuration: 0.55,
+		fadeDuration: 0.35,
+		displayNav: true,
+		continuous: false,
+		displayCounter: true,
+		counterType: "default",
+		counterLimit: 10,
+		viewportPadding: 20,
+		handleOversize: "resize",
+		handleUnsupported: "link",
+		initialHeight: 160,
+		initialWidth: 320,
+		enableKeys: true,
+		skipSetup: false,
+		flashParams: {bgcolor:"#000000", allowFullScreen:true},
+		flashVars: {},
+		flashVersion: "9.0.0",
+		useSizzle: false
+	};
+	Shadowbox.init(shadowbox_conf);
+</script>
+<!-- End Shadowbox JS -->
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"http:\/\/pv3d.org\/wp-content\/plugins\/wp-polls\/wp-polls.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../wp-content/plugins/wp-polls/polls-js59c7.js?ver=2.50'></script>
+<script type='text/javascript' src='../../../../wp-content/plugins/shadowbox-js/shadowbox/shadowbox6aec.js?ver=3.0'></script>
+</body>
+
+<!-- Mirrored from pv3d.org/2008/12/06/embedding-a-collada-file/ by HTTrack Website Copier/3.x [XR&CO'2010], Thu, 11 Oct 2012 21:57:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+</html><!-- WP Super Cache is installed but broken. The path to wp-cache-phase1.php in wp-content/advanced-cache.php must be fixed! -->
