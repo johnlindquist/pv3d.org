@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>pv3d.org &#187; how it works</title>
+	<atom:link href="http://pv3d.org/category/how-it-works/feed/" rel="self" type="application/rss+xml" />
+	<link>http://pv3d.org</link>
+	<description>Papervision3D, ActionScript, and Flex examples and tutorials by John Lindquist</description>
+	<lastBuildDate>Mon, 12 Jul 2010 23:14:19 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.4.2</generator>
+		<item>
+		<title>Slerp Explorer</title>
+		<link>http://pv3d.org/2008/12/30/slerp-explorer/</link>
+		<comments>http://pv3d.org/2008/12/30/slerp-explorer/#comments</comments>
+		<pubDate>Wed, 31 Dec 2008 00:38:10 +0000</pubDate>
+		<dc:creator>John Lindquist</dc:creator>
+				<category><![CDATA[how it works]]></category>
+		<category><![CDATA[quaternion]]></category>
+		<category><![CDATA[slerp]]></category>
+
+		<guid isPermaLink="false">http://pv3d.org/?p=289</guid>
+		<description><![CDATA[Slerp allows you to find the quickest path from one rotation to another rotation. In Papervision3D, slerp is a static function of the Quaternion class. The following code shows all the pieces you&#8217;ll need to use slerp in your projects: //the values from your start axis and rotation (x,y,z,rotation) startQuaternion = new Quaternion&#40;0, 1, 0, [...]]]></description>
+		<wfw:commentRss>http://pv3d.org/2008/12/30/slerp-explorer/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Quaternion Explorer</title>
+		<link>http://pv3d.org/2008/12/29/quaternion-explorer/</link>
+		<comments>http://pv3d.org/2008/12/29/quaternion-explorer/#comments</comments>
+		<pubDate>Mon, 29 Dec 2008 20:43:59 +0000</pubDate>
+		<dc:creator>John Lindquist</dc:creator>
+				<category><![CDATA[how it works]]></category>
+		<category><![CDATA[quaternion]]></category>
+
+		<guid isPermaLink="false">http://pv3d.org/?p=279</guid>
+		<description><![CDATA[The definition of Quaternion is a little more complex, but the use-case of a Quaternion is actually pretty easy to show. In this explorer, you&#8217;ll see how you define an axis with the sliders on the left then define the rotation around that axis with the slider on the right. This essentially shows you everything [...]]]></description>
+		<wfw:commentRss>http://pv3d.org/2008/12/29/quaternion-explorer/feed/</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+		</item>
+		<item>
+		<title>TriangleMesh3D &#8211; Create your own mesh</title>
+		<link>http://pv3d.org/2008/12/13/trianglemesh3d-create-your-own-mesh/</link>
+		<comments>http://pv3d.org/2008/12/13/trianglemesh3d-create-your-own-mesh/#comments</comments>
+		<pubDate>Sat, 13 Dec 2008 10:33:00 +0000</pubDate>
+		<dc:creator>John Lindquist</dc:creator>
+				<category><![CDATA[examples]]></category>
+		<category><![CDATA[how it works]]></category>
+		<category><![CDATA[Triangle3D]]></category>
+		<category><![CDATA[TriangleMesh3D]]></category>
+		<category><![CDATA[Vertex3D]]></category>
+
+		<guid isPermaLink="false">http://pv3d.org/?p=229</guid>
+		<description><![CDATA[This shows you how to make little baby triangles. If you put enough of these together with the proper coordinates and rotations, you could make a Tyrannosaurs Rex! source package &#123; import flash.events.Event; &#160; import org.papervision3d.core.geom.TriangleMesh3D; import org.papervision3d.core.geom.renderables.Triangle3D; import org.papervision3d.core.geom.renderables.Vertex3D; import org.papervision3d.materials.ColorMaterial; import org.papervision3d.view.BasicView; &#160; &#91;SWF&#40;width=&#34;640&#34;, height=&#34;480&#34;, backgroundColor=&#34;#000000&#34;, frameRate=&#34;60&#34;&#41;&#93; public class TriangleMesh3DExample extends BasicView &#123; [...]]]></description>
+		<wfw:commentRss>http://pv3d.org/2008/12/13/trianglemesh3d-create-your-own-mesh/feed/</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+		</item>
+		<item>
+		<title>What is BasicView?</title>
+		<link>http://pv3d.org/2008/12/06/what-is-basicview/</link>
+		<comments>http://pv3d.org/2008/12/06/what-is-basicview/#comments</comments>
+		<pubDate>Sat, 06 Dec 2008 09:49:01 +0000</pubDate>
+		<dc:creator>John Lindquist</dc:creator>
+				<category><![CDATA[how it works]]></category>
+		<category><![CDATA[tutorials]]></category>
+		<category><![CDATA[basics]]></category>
+
+		<guid isPermaLink="false">http://pv3d.org/?p=172</guid>
+		<description><![CDATA[I use BasicView in all of my examples. This post explains why: 1. BasicView is a Sprite Every ActionScript 3 project requires a &#8220;document class&#8220;. Since BasicView subclasses Sprite, you can extend BasicView to create your document class: public class MyAwesomeDocumentClass extends BasicView *note &#8211; You&#8217;ve probably heard the terms subclass, inherits, inheritance, extends, or [...]]]></description>
+		<wfw:commentRss>http://pv3d.org/2008/12/06/what-is-basicview/feed/</wfw:commentRss>
+		<slash:comments>15</slash:comments>
+		</item>
+		<item>
+		<title>Understanding Papervision3D: Matrix3D</title>
+		<link>http://pv3d.org/2008/11/24/understanding-papervision3d-matrix3d/</link>
+		<comments>http://pv3d.org/2008/11/24/understanding-papervision3d-matrix3d/#comments</comments>
+		<pubDate>Tue, 25 Nov 2008 00:59:39 +0000</pubDate>
+		<dc:creator>John Lindquist</dc:creator>
+				<category><![CDATA[how it works]]></category>
+		<category><![CDATA[matrix]]></category>
+
+		<guid isPermaLink="false">http://pv3d.org/?p=82</guid>
+		<description><![CDATA[This post will cover how you use a Matrix3D to scale, pitch, yaw, roll, and translate 3d objects: Every 3d object within Papervision3D has a Matrix3D that defines its scale, pitch, yaw, roll, x, y, and z (changing x, y, and z is referred to as &#8220;translation&#8221; because they move a group of points equally). [...]]]></description>
+		<wfw:commentRss>http://pv3d.org/2008/11/24/understanding-papervision3d-matrix3d/feed/</wfw:commentRss>
+		<slash:comments>12</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- WP Super Cache is installed but broken. The path to wp-cache-phase1.php in wp-content/advanced-cache.php must be fixed! -->
