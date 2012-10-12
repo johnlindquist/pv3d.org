@@ -1,7 +1,568 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fdcb4aa-0141-4d2a-82fa-ac4815ac8450" name="Default" comment="" />
+    <list default="true" id="7fdcb4aa-0141-4d2a-82fa-ac4815ac8450" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/07/index.html" afterPath="$PROJECT_DIR$/2008/11/07/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/07/third-times-the-charm/index.html" afterPath="$PROJECT_DIR$/2008/11/07/third-times-the-charm/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/08/index.html" afterPath="$PROJECT_DIR$/2008/11/08/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/08/trail/index.html" afterPath="$PROJECT_DIR$/2008/11/08/trail/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/17/finding-2d-coordinates/index.html" afterPath="$PROJECT_DIR$/2008/11/17/finding-2d-coordinates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/17/finding-2d-vertices-in-a-displayobject3d/index.html" afterPath="$PROJECT_DIR$/2008/11/17/finding-2d-vertices-in-a-displayobject3d/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/17/index.html" afterPath="$PROJECT_DIR$/2008/11/17/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/18/fun-with-pixel3d-and-vertex3d/index.html" afterPath="$PROJECT_DIR$/2008/11/18/fun-with-pixel3d-and-vertex3d/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/18/index.html" afterPath="$PROJECT_DIR$/2008/11/18/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/18/page/2/index.html" afterPath="$PROJECT_DIR$/2008/11/18/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/18/points-along-a-displacement-vector-part-2/index.html" afterPath="$PROJECT_DIR$/2008/11/18/points-along-a-displacement-vector-part-2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/18/points-along-a-displacement-vector/index.html" afterPath="$PROJECT_DIR$/2008/11/18/points-along-a-displacement-vector/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/18/showing-the-hand-cursor-on-a-plane/index.html" afterPath="$PROJECT_DIR$/2008/11/18/showing-the-hand-cursor-on-a-plane/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/18/vectors-show-length-and-direction/index.html" afterPath="$PROJECT_DIR$/2008/11/18/vectors-show-length-and-direction/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/19/bumpmap-using-envmapmaterial/index.html" afterPath="$PROJECT_DIR$/2008/11/19/bumpmap-using-envmapmaterial/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/19/dragging-mouse-for-camera-orbit/index.html" afterPath="$PROJECT_DIR$/2008/11/19/dragging-mouse-for-camera-orbit/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/19/fireball/index.html" afterPath="$PROJECT_DIR$/2008/11/19/fireball/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/19/index.html" afterPath="$PROJECT_DIR$/2008/11/19/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/19/mouse3d-moving-light/index.html" afterPath="$PROJECT_DIR$/2008/11/19/mouse3d-moving-light/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/19/page/2/index.html" afterPath="$PROJECT_DIR$/2008/11/19/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/19/switching-parents-at-runtime/index.html" afterPath="$PROJECT_DIR$/2008/11/19/switching-parents-at-runtime/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/20/index.html" afterPath="$PROJECT_DIR$/2008/11/20/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/20/viewportlayer-and-sortmode-index-vs-z/index.html" afterPath="$PROJECT_DIR$/2008/11/20/viewportlayer-and-sortmode-index-vs-z/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/21/camera-free-vs-target/index.html" afterPath="$PROJECT_DIR$/2008/11/21/camera-free-vs-target/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/21/following-line/index.html" afterPath="$PROJECT_DIR$/2008/11/21/following-line/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/21/index.html" afterPath="$PROJECT_DIR$/2008/11/21/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/21/waiting-for-a-image-to-load/index.html" afterPath="$PROJECT_DIR$/2008/11/21/waiting-for-a-image-to-load/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/24/drag-and-release/index.html" afterPath="$PROJECT_DIR$/2008/11/24/drag-and-release/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/24/index.html" afterPath="$PROJECT_DIR$/2008/11/24/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/24/understanding-papervision3d-matrix3d/index.html" afterPath="$PROJECT_DIR$/2008/11/24/understanding-papervision3d-matrix3d/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/25/index.html" afterPath="$PROJECT_DIR$/2008/11/25/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/25/mouse-follower/index.html" afterPath="$PROJECT_DIR$/2008/11/25/mouse-follower/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/26/dancing-spheres/index.html" afterPath="$PROJECT_DIR$/2008/11/26/dancing-spheres/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/26/glow-filter-on-a-viewportlayer/index.html" afterPath="$PROJECT_DIR$/2008/11/26/glow-filter-on-a-viewportlayer/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/26/index.html" afterPath="$PROJECT_DIR$/2008/11/26/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/26/the-state-pattern-source-files/index.html" afterPath="$PROJECT_DIR$/2008/11/26/the-state-pattern-source-files/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/27/index.html" afterPath="$PROJECT_DIR$/2008/11/27/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/27/plane3d-intersect-poin/index.html" afterPath="$PROJECT_DIR$/2008/11/27/plane3d-intersect-poin/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/29/adding-a-basicview-to-a-flex-uicomponent/index.html" afterPath="$PROJECT_DIR$/2008/11/29/adding-a-basicview-to-a-flex-uicomponent/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/29/distance-from-mouse-using-screen-coordinates/index.html" afterPath="$PROJECT_DIR$/2008/11/29/distance-from-mouse-using-screen-coordinates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/29/distance-to-mouse-using-a-dummy-3d-object/index.html" afterPath="$PROJECT_DIR$/2008/11/29/distance-to-mouse-using-a-dummy-3d-object/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/29/free-rotation-using-quaternions/index.html" afterPath="$PROJECT_DIR$/2008/11/29/free-rotation-using-quaternions/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/29/index.html" afterPath="$PROJECT_DIR$/2008/11/29/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/29/page/2/index.html" afterPath="$PROJECT_DIR$/2008/11/29/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/29/using-slerp-to-move-around-a-sphere/index.html" afterPath="$PROJECT_DIR$/2008/11/29/using-slerp-to-move-around-a-sphere/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/30/distance-between-two-number3ds/index.html" afterPath="$PROJECT_DIR$/2008/11/30/distance-between-two-number3ds/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/30/index.html" afterPath="$PROJECT_DIR$/2008/11/30/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/index.html" afterPath="$PROJECT_DIR$/2008/11/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/page/2/index.html" afterPath="$PROJECT_DIR$/2008/11/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/page/3/index.html" afterPath="$PROJECT_DIR$/2008/11/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/page/4/index.html" afterPath="$PROJECT_DIR$/2008/11/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/page/5/index.html" afterPath="$PROJECT_DIR$/2008/11/page/5/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/page/6/index.html" afterPath="$PROJECT_DIR$/2008/11/page/6/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/page/7/index.html" afterPath="$PROJECT_DIR$/2008/11/page/7/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/11/page/8/index.html" afterPath="$PROJECT_DIR$/2008/11/page/8/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/01/bitmapviewportmaterial-example/index.html" afterPath="$PROJECT_DIR$/2008/12/01/bitmapviewportmaterial-example/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/01/carousel-with-proper-rotation-and-reflection/index.html" afterPath="$PROJECT_DIR$/2008/12/01/carousel-with-proper-rotation-and-reflection/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/01/index.html" afterPath="$PROJECT_DIR$/2008/12/01/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/01/the-strategy-pattern-changing-behavior/index.html" afterPath="$PROJECT_DIR$/2008/12/01/the-strategy-pattern-changing-behavior/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/02/index.html" afterPath="$PROJECT_DIR$/2008/12/02/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/02/plane-with-two-different-sides/index.html" afterPath="$PROJECT_DIR$/2008/12/02/plane-with-two-different-sides/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/04/3ds-max-texture-baking-for-papervision3d/index.html" afterPath="$PROJECT_DIR$/2008/12/04/3ds-max-texture-baking-for-papervision3d/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/04/index.html" afterPath="$PROJECT_DIR$/2008/12/04/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/04/neat-camera-and-arrows-thingy/index.html" afterPath="$PROJECT_DIR$/2008/12/04/neat-camera-and-arrows-thingy/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/04/tweening-vertices/index.html" afterPath="$PROJECT_DIR$/2008/12/04/tweening-vertices/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/04/updated-downloads/index.html" afterPath="$PROJECT_DIR$/2008/12/04/updated-downloads/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/06/embedding-a-collada-file/index.html" afterPath="$PROJECT_DIR$/2008/12/06/embedding-a-collada-file/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/06/index.html" afterPath="$PROJECT_DIR$/2008/12/06/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/06/papervision3d-sound-spectrum/index.html" afterPath="$PROJECT_DIR$/2008/12/06/papervision3d-sound-spectrum/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/06/what-is-basicview/index.html" afterPath="$PROJECT_DIR$/2008/12/06/what-is-basicview/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/07/animating-a-collada-file-from-3ds-max/index.html" afterPath="$PROJECT_DIR$/2008/12/07/animating-a-collada-file-from-3ds-max/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/07/collada-with-cellshader-and-pointlight3d/index.html" afterPath="$PROJECT_DIR$/2008/12/07/collada-with-cellshader-and-pointlight3d/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/07/index.html" afterPath="$PROJECT_DIR$/2008/12/07/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/07/using-a-viewport-as-a-mask/index.html" afterPath="$PROJECT_DIR$/2008/12/07/using-a-viewport-as-a-mask/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/08/index.html" afterPath="$PROJECT_DIR$/2008/12/08/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/08/papervision3d-now-includes-vectorvision/index.html" afterPath="$PROJECT_DIR$/2008/12/08/papervision3d-now-includes-vectorvision/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/08/vectorvision-hello-world/index.html" afterPath="$PROJECT_DIR$/2008/12/08/vectorvision-hello-world/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/09/dragging-spheres/index.html" afterPath="$PROJECT_DIR$/2008/12/09/dragging-spheres/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/09/index.html" afterPath="$PROJECT_DIR$/2008/12/09/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/09/papervision3d-wins-net-magazine-2008-innovation-of-the-year/index.html" afterPath="$PROJECT_DIR$/2008/12/09/papervision3d-wins-net-magazine-2008-innovation-of-the-year/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/09/portal/index.html" afterPath="$PROJECT_DIR$/2008/12/09/portal/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/11/hosting-problems/index.html" afterPath="$PROJECT_DIR$/2008/12/11/hosting-problems/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/11/index.html" afterPath="$PROJECT_DIR$/2008/12/11/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/11/swapping-a-plane-with-a-movieclip/index.html" afterPath="$PROJECT_DIR$/2008/12/11/swapping-a-plane-with-a-movieclip/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/12/index.html" afterPath="$PROJECT_DIR$/2008/12/12/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/12/per-face-material/index.html" afterPath="$PROJECT_DIR$/2008/12/12/per-face-material/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/13/index.html" afterPath="$PROJECT_DIR$/2008/12/13/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/13/swapping-materials-on-faces/index.html" afterPath="$PROJECT_DIR$/2008/12/13/swapping-materials-on-faces/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/13/trianglemesh3d-create-your-own-mesh/index.html" afterPath="$PROJECT_DIR$/2008/12/13/trianglemesh3d-create-your-own-mesh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/15/flint-particle-system-with-papervision3d/index.html" afterPath="$PROJECT_DIR$/2008/12/15/flint-particle-system-with-papervision3d/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/15/index.html" afterPath="$PROJECT_DIR$/2008/12/15/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/19/dragging-planes-and-lookat-camera/index.html" afterPath="$PROJECT_DIR$/2008/12/19/dragging-planes-and-lookat-camera/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/19/index.html" afterPath="$PROJECT_DIR$/2008/12/19/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/19/shaders-shadedmaterial-example/index.html" afterPath="$PROJECT_DIR$/2008/12/19/shaders-shadedmaterial-example/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/20/cube-with-different-sides-materialslist/index.html" afterPath="$PROJECT_DIR$/2008/12/20/cube-with-different-sides-materialslist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/20/index.html" afterPath="$PROJECT_DIR$/2008/12/20/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/20/papervision3d-with-box2dflash-hello-world/comment-page-1/index.html" afterPath="$PROJECT_DIR$/2008/12/20/papervision3d-with-box2dflash-hello-world/comment-page-1/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/20/papervision3d-with-box2dflash-hello-world/index.html" afterPath="$PROJECT_DIR$/2008/12/20/papervision3d-with-box2dflash-hello-world/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/20/papervision3d-with-box2dflash-part-2/index.html" afterPath="$PROJECT_DIR$/2008/12/20/papervision3d-with-box2dflash-part-2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/20/papervision3d-with-box2dflash-part-3-adding-mouse-interaction/index.html" afterPath="$PROJECT_DIR$/2008/12/20/papervision3d-with-box2dflash-part-3-adding-mouse-interaction/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/21/index.html" afterPath="$PROJECT_DIR$/2008/12/21/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/21/papervision3d-with-as3dmod-hello-world-example/index.html" afterPath="$PROJECT_DIR$/2008/12/21/papervision3d-with-as3dmod-hello-world-example/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/21/swc-and-zip-updated-to-revision-851/index.html" afterPath="$PROJECT_DIR$/2008/12/21/swc-and-zip-updated-to-revision-851/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/22/flint-pixels-2-random-drift-and-rotate-emitter/index.html" afterPath="$PROJECT_DIR$/2008/12/22/flint-pixels-2-random-drift-and-rotate-emitter/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/22/flint-pixels/index.html" afterPath="$PROJECT_DIR$/2008/12/22/flint-pixels/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/22/index.html" afterPath="$PROJECT_DIR$/2008/12/22/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/22/papervision3d-with-box2dflash-part-4-distance-joint/index.html" afterPath="$PROJECT_DIR$/2008/12/22/papervision3d-with-box2dflash-part-4-distance-joint/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/24/index.html" afterPath="$PROJECT_DIR$/2008/12/24/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/24/merry-christmas/index.html" afterPath="$PROJECT_DIR$/2008/12/24/merry-christmas/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/26/index.html" afterPath="$PROJECT_DIR$/2008/12/26/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/26/switching-a-moviematerial-on-the-face-of-a-cube-replacematerialbyname/index.html" afterPath="$PROJECT_DIR$/2008/12/26/switching-a-moviematerial-on-the-face-of-a-cube-replacematerialbyname/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/28/click-then-tween-camera-to-plane/index.html" afterPath="$PROJECT_DIR$/2008/12/28/click-then-tween-camera-to-plane/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/28/index.html" afterPath="$PROJECT_DIR$/2008/12/28/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/29/index.html" afterPath="$PROJECT_DIR$/2008/12/29/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/29/quaternion-explorer/index.html" afterPath="$PROJECT_DIR$/2008/12/29/quaternion-explorer/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/30/index.html" afterPath="$PROJECT_DIR$/2008/12/30/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/30/slerp-explorer/index.html" afterPath="$PROJECT_DIR$/2008/12/30/slerp-explorer/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/31/happy-new-year/index.html" afterPath="$PROJECT_DIR$/2008/12/31/happy-new-year/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/31/index.html" afterPath="$PROJECT_DIR$/2008/12/31/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/index.html" afterPath="$PROJECT_DIR$/2008/12/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/page/10/index.html" afterPath="$PROJECT_DIR$/2008/12/page/10/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/page/11/index.html" afterPath="$PROJECT_DIR$/2008/12/page/11/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/page/2/index.html" afterPath="$PROJECT_DIR$/2008/12/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/page/3/index.html" afterPath="$PROJECT_DIR$/2008/12/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/page/4/index.html" afterPath="$PROJECT_DIR$/2008/12/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/page/5/index.html" afterPath="$PROJECT_DIR$/2008/12/page/5/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/page/6/index.html" afterPath="$PROJECT_DIR$/2008/12/page/6/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/page/7/index.html" afterPath="$PROJECT_DIR$/2008/12/page/7/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/page/8/index.html" afterPath="$PROJECT_DIR$/2008/12/page/8/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2008/12/page/9/index.html" afterPath="$PROJECT_DIR$/2008/12/page/9/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/02/cube-inside-faces-and-outside-faces/index.html" afterPath="$PROJECT_DIR$/2009/01/02/cube-inside-faces-and-outside-faces/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/02/index.html" afterPath="$PROJECT_DIR$/2009/01/02/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/03/index.html" afterPath="$PROJECT_DIR$/2009/01/03/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/03/tweening-the-camera-and-tweening-lookat/index.html" afterPath="$PROJECT_DIR$/2009/01/03/tweening-the-camera-and-tweening-lookat/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/05/index.html" afterPath="$PROJECT_DIR$/2009/01/05/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/05/looking-around-the-inside-of-a-sphere/index.html" afterPath="$PROJECT_DIR$/2009/01/05/looking-around-the-inside-of-a-sphere/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/06/as3dmod-twist/index.html" afterPath="$PROJECT_DIR$/2009/01/06/as3dmod-twist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/06/index.html" afterPath="$PROJECT_DIR$/2009/01/06/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/07/as3dmod-perlin-noise/index.html" afterPath="$PROJECT_DIR$/2009/01/07/as3dmod-perlin-noise/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/07/index.html" afterPath="$PROJECT_DIR$/2009/01/07/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/08/as3dmod-taper/index.html" afterPath="$PROJECT_DIR$/2009/01/08/as3dmod-taper/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/08/index.html" afterPath="$PROJECT_DIR$/2009/01/08/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/11/index.html" afterPath="$PROJECT_DIR$/2009/01/11/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/11/tweening-rotated-planes-to-you/index.html" afterPath="$PROJECT_DIR$/2009/01/11/tweening-rotated-planes-to-you/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/13/index.html" afterPath="$PROJECT_DIR$/2009/01/13/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/13/jiglibflash-3d-physics-engine/index.html" afterPath="$PROJECT_DIR$/2009/01/13/jiglibflash-3d-physics-engine/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/13/updated-swc-and-zip-rev-859/index.html" afterPath="$PROJECT_DIR$/2009/01/13/updated-swc-and-zip-rev-859/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/14/index.html" afterPath="$PROJECT_DIR$/2009/01/14/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/14/rolling-a-sphere-with-the-keyboard/index.html" afterPath="$PROJECT_DIR$/2009/01/14/rolling-a-sphere-with-the-keyboard/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/15/dragging-an-object-to-rotate/index.html" afterPath="$PROJECT_DIR$/2009/01/15/dragging-an-object-to-rotate/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/15/index.html" afterPath="$PROJECT_DIR$/2009/01/15/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/15/rolling-a-sphere-with-keyboard-and-box2dflash-physics/index.html" afterPath="$PROJECT_DIR$/2009/01/15/rolling-a-sphere-with-keyboard-and-box2dflash-physics/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/19/forums/index.html" afterPath="$PROJECT_DIR$/2009/01/19/forums/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/19/index.html" afterPath="$PROJECT_DIR$/2009/01/19/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/21/index.html" afterPath="$PROJECT_DIR$/2009/01/21/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/21/training-in-chicago/index.html" afterPath="$PROJECT_DIR$/2009/01/21/training-in-chicago/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/23/index.html" afterPath="$PROJECT_DIR$/2009/01/23/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/23/springcamera3d-and-driving-a-car/index.html" afterPath="$PROJECT_DIR$/2009/01/23/springcamera3d-and-driving-a-car/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/28/actionscript-3-public-internal-protected-private/index.html" afterPath="$PROJECT_DIR$/2009/01/28/actionscript-3-public-internal-protected-private/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/28/index.html" afterPath="$PROJECT_DIR$/2009/01/28/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/30/index.html" afterPath="$PROJECT_DIR$/2009/01/30/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/31/flover-cow-aka-cover-flow-knockoff/index.html" afterPath="$PROJECT_DIR$/2009/01/31/flover-cow-aka-cover-flow-knockoff/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/31/index.html" afterPath="$PROJECT_DIR$/2009/01/31/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/31/stacked-planes/index.html" afterPath="$PROJECT_DIR$/2009/01/31/stacked-planes/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/index.html" afterPath="$PROJECT_DIR$/2009/01/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/page/2/index.html" afterPath="$PROJECT_DIR$/2009/01/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/page/3/index.html" afterPath="$PROJECT_DIR$/2009/01/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/page/4/index.html" afterPath="$PROJECT_DIR$/2009/01/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/01/page/5/index.html" afterPath="$PROJECT_DIR$/2009/01/page/5/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/01/3d-grid/index.html" afterPath="$PROJECT_DIR$/2009/02/01/3d-grid/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/01/grid/index.html" afterPath="$PROJECT_DIR$/2009/02/01/grid/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/01/index.html" afterPath="$PROJECT_DIR$/2009/02/01/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/03/index.html" afterPath="$PROJECT_DIR$/2009/02/03/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/03/internal-carousel/index.html" afterPath="$PROJECT_DIR$/2009/02/03/internal-carousel/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/04/getting-started-with-papervision3d/index.html" afterPath="$PROJECT_DIR$/2009/02/04/getting-started-with-papervision3d/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/04/index.html" afterPath="$PROJECT_DIR$/2009/02/04/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/11/actionscript-3-model-view-controller-mvc/index.html" afterPath="$PROJECT_DIR$/2009/02/11/actionscript-3-model-view-controller-mvc/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/11/index.html" afterPath="$PROJECT_DIR$/2009/02/11/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/16/carousel-with-forward-facing-planes/index.html" afterPath="$PROJECT_DIR$/2009/02/16/carousel-with-forward-facing-planes/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/16/index.html" afterPath="$PROJECT_DIR$/2009/02/16/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/17/index.html" afterPath="$PROJECT_DIR$/2009/02/17/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/17/ribbons/index.html" afterPath="$PROJECT_DIR$/2009/02/17/ribbons/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/18/as3-binding-without-the-flex-framework/index.html" afterPath="$PROJECT_DIR$/2009/02/18/as3-binding-without-the-flex-framework/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/18/index.html" afterPath="$PROJECT_DIR$/2009/02/18/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/19/index.html" afterPath="$PROJECT_DIR$/2009/02/19/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/19/server-woes-and-forum-status/index.html" afterPath="$PROJECT_DIR$/2009/02/19/server-woes-and-forum-status/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/20/actionscript-3-command-pattern-and-interfaces/index.html" afterPath="$PROJECT_DIR$/2009/02/20/actionscript-3-command-pattern-and-interfaces/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/20/index.html" afterPath="$PROJECT_DIR$/2009/02/20/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/23/command-pattern-undo-and-command-stack/index.html" afterPath="$PROJECT_DIR$/2009/02/23/command-pattern-undo-and-command-stack/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/23/index.html" afterPath="$PROJECT_DIR$/2009/02/23/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/24/command-pattern-queuing-commands/index.html" afterPath="$PROJECT_DIR$/2009/02/24/command-pattern-queuing-commands/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/24/index.html" afterPath="$PROJECT_DIR$/2009/02/24/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/25/index.html" afterPath="$PROJECT_DIR$/2009/02/25/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/25/memento-pattern-recording-state/index.html" afterPath="$PROJECT_DIR$/2009/02/25/memento-pattern-recording-state/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/26/index.html" afterPath="$PROJECT_DIR$/2009/02/26/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/26/text-layout-framework-examples/index.html" afterPath="$PROJECT_DIR$/2009/02/26/text-layout-framework-examples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/27/index.html" afterPath="$PROJECT_DIR$/2009/02/27/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/27/text-layout-framework-presentation/index.html" afterPath="$PROJECT_DIR$/2009/02/27/text-layout-framework-presentation/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/28/index.html" afterPath="$PROJECT_DIR$/2009/02/28/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/28/packing-for-chicago/index.html" afterPath="$PROJECT_DIR$/2009/02/28/packing-for-chicago/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/index.html" afterPath="$PROJECT_DIR$/2009/02/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/page/2/index.html" afterPath="$PROJECT_DIR$/2009/02/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/page/3/index.html" afterPath="$PROJECT_DIR$/2009/02/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/02/page/4/index.html" afterPath="$PROJECT_DIR$/2009/02/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/03/index.html" afterPath="$PROJECT_DIR$/2009/03/03/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/03/thanks-chicago-this-ones-for-you/index.html" afterPath="$PROJECT_DIR$/2009/03/03/thanks-chicago-this-ones-for-you/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/05/3d-modeling-tutorials/index.html" afterPath="$PROJECT_DIR$/2009/03/05/3d-modeling-tutorials/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/05/index.html" afterPath="$PROJECT_DIR$/2009/03/05/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/06/index.html" afterPath="$PROJECT_DIR$/2009/03/06/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/06/localserviceconnection-flashlcs-dem/index.html" afterPath="$PROJECT_DIR$/2009/03/06/localserviceconnection-flashlcs-dem/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/09/index.html" afterPath="$PROJECT_DIR$/2009/03/09/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/09/the-return-of-the-forums/index.html" afterPath="$PROJECT_DIR$/2009/03/09/the-return-of-the-forums/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/10/index.html" afterPath="$PROJECT_DIR$/2009/03/10/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/10/particle-orbiting/index.html" afterPath="$PROJECT_DIR$/2009/03/10/particle-orbiting/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/12/augmented-reality-flartoolkit-demo-reel/comment-page-1/index.html" afterPath="$PROJECT_DIR$/2009/03/12/augmented-reality-flartoolkit-demo-reel/comment-page-1/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/12/augmented-reality-flartoolkit-demo-reel/index.html" afterPath="$PROJECT_DIR$/2009/03/12/augmented-reality-flartoolkit-demo-reel/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/12/augmented-reality-recursive-webcam/comment-page-3/index.html" afterPath="$PROJECT_DIR$/2009/03/12/augmented-reality-recursive-webcam/comment-page-3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/12/augmented-reality-recursive-webcam/index.html" afterPath="$PROJECT_DIR$/2009/03/12/augmented-reality-recursive-webcam/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/12/index.html" afterPath="$PROJECT_DIR$/2009/03/12/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/17/index.html" afterPath="$PROJECT_DIR$/2009/03/17/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/17/mxml-without-the-flex-framework/index.html" afterPath="$PROJECT_DIR$/2009/03/17/mxml-without-the-flex-framework/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/18/index.html" afterPath="$PROJECT_DIR$/2009/03/18/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/18/papervision3d-in-mxml/index.html" afterPath="$PROJECT_DIR$/2009/03/18/papervision3d-in-mxml/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/20/index.html" afterPath="$PROJECT_DIR$/2009/03/20/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/20/laid-off/index.html" afterPath="$PROJECT_DIR$/2009/03/20/laid-off/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/30/index.html" afterPath="$PROJECT_DIR$/2009/03/30/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/30/renderlayers-selective-rendering/index.html" afterPath="$PROJECT_DIR$/2009/03/30/renderlayers-selective-rendering/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/31/index.html" afterPath="$PROJECT_DIR$/2009/03/31/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/31/twitter-papervision3d-using-tweetr/index.html" afterPath="$PROJECT_DIR$/2009/03/31/twitter-papervision3d-using-tweetr/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/31/using-a-flex-component-as-a-material/index.html" afterPath="$PROJECT_DIR$/2009/03/31/using-a-flex-component-as-a-material/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/31/using-the-viewport-for-interactivity/index.html" afterPath="$PROJECT_DIR$/2009/03/31/using-the-viewport-for-interactivity/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/index.html" afterPath="$PROJECT_DIR$/2009/03/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/page/2/index.html" afterPath="$PROJECT_DIR$/2009/03/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/page/3/index.html" afterPath="$PROJECT_DIR$/2009/03/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/03/page/4/index.html" afterPath="$PROJECT_DIR$/2009/03/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/01/blogging-in-french/index.html" afterPath="$PROJECT_DIR$/2009/04/01/blogging-in-french/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/01/index.html" afterPath="$PROJECT_DIR$/2009/04/01/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/02/index.html" afterPath="$PROJECT_DIR$/2009/04/02/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/02/poisson-davril/index.html" afterPath="$PROJECT_DIR$/2009/04/02/poisson-davril/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/05/index.html" afterPath="$PROJECT_DIR$/2009/04/05/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/05/sliced-plane/index.html" afterPath="$PROJECT_DIR$/2009/04/05/sliced-plane/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/06/download-source/index.html" afterPath="$PROJECT_DIR$/2009/04/06/download-source/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/06/index.html" afterPath="$PROJECT_DIR$/2009/04/06/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/08/full-screen-cube/index.html" afterPath="$PROJECT_DIR$/2009/04/08/full-screen-cube/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/08/index.html" afterPath="$PROJECT_DIR$/2009/04/08/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/09/index.html" afterPath="$PROJECT_DIR$/2009/04/09/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/09/sliced-cube/index.html" afterPath="$PROJECT_DIR$/2009/04/09/sliced-cube/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/14/index.html" afterPath="$PROJECT_DIR$/2009/04/14/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/14/theres-more-than-one-way-to-skin-a-scrollbar/index.html" afterPath="$PROJECT_DIR$/2009/04/14/theres-more-than-one-way-to-skin-a-scrollbar/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/15/hired/index.html" afterPath="$PROJECT_DIR$/2009/04/15/hired/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/15/index.html" afterPath="$PROJECT_DIR$/2009/04/15/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/17/index.html" afterPath="$PROJECT_DIR$/2009/04/17/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/17/vote-in-the-best-augmented-reality-competition/index.html" afterPath="$PROJECT_DIR$/2009/04/17/vote-in-the-best-augmented-reality-competition/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/21/index.html" afterPath="$PROJECT_DIR$/2009/04/21/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/21/training-in-san-francisco/index.html" afterPath="$PROJECT_DIR$/2009/04/21/training-in-san-francisco/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/index.html" afterPath="$PROJECT_DIR$/2009/04/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/page/2/index.html" afterPath="$PROJECT_DIR$/2009/04/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/04/page/3/index.html" afterPath="$PROJECT_DIR$/2009/04/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/05/16/index.html" afterPath="$PROJECT_DIR$/2009/05/16/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/05/16/the-spotlight-effect-dimming-the-unselected/index.html" afterPath="$PROJECT_DIR$/2009/05/16/the-spotlight-effect-dimming-the-unselected/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/05/23/index.html" afterPath="$PROJECT_DIR$/2009/05/23/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/05/23/moving-a-texture-inside-of-a-plane/index.html" afterPath="$PROJECT_DIR$/2009/05/23/moving-a-texture-inside-of-a-plane/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/05/24/index.html" afterPath="$PROJECT_DIR$/2009/05/24/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/05/24/moving-faces/index.html" afterPath="$PROJECT_DIR$/2009/05/24/moving-faces/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/05/25/holy-sphere/index.html" afterPath="$PROJECT_DIR$/2009/05/25/holy-sphere/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/05/25/index.html" afterPath="$PROJECT_DIR$/2009/05/25/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/05/26/index.html" afterPath="$PROJECT_DIR$/2009/05/26/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/05/26/tweening-movef/index.html" afterPath="$PROJECT_DIR$/2009/05/26/tweening-movef/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/05/27/calculatemultiply3x3/index.html" afterPath="$PROJECT_DIR$/2009/05/27/calculatemultiply3x3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/05/27/index.html" afterPath="$PROJECT_DIR$/2009/05/27/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/05/index.html" afterPath="$PROJECT_DIR$/2009/05/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/05/page/2/index.html" afterPath="$PROJECT_DIR$/2009/05/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/02/big-and-small/index.html" afterPath="$PROJECT_DIR$/2009/06/02/big-and-small/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/02/index.html" afterPath="$PROJECT_DIR$/2009/06/02/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/10/index.html" afterPath="$PROJECT_DIR$/2009/06/10/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/10/peer-to-peer-in-flash-player-10-by-danny-patterson/index.html" afterPath="$PROJECT_DIR$/2009/06/10/peer-to-peer-in-flash-player-10-by-danny-patterson/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/13/how-to-click-on-stuff-in-papervision3d-viewport-viewportlayers-interactivescene3devent-mouse3d-and-moviematerial-buttons/index.html" afterPath="$PROJECT_DIR$/2009/06/13/how-to-click-on-stuff-in-papervision3d-viewport-viewportlayers-interactivescene3devent-mouse3d-and-moviematerial-buttons/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/13/index.html" afterPath="$PROJECT_DIR$/2009/06/13/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/22/flex-4-states/index.html" afterPath="$PROJECT_DIR$/2009/06/22/flex-4-states/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/22/index.html" afterPath="$PROJECT_DIR$/2009/06/22/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/23/flex-4-layouts-and-groups/index.html" afterPath="$PROJECT_DIR$/2009/06/23/flex-4-layouts-and-groups/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/23/index.html" afterPath="$PROJECT_DIR$/2009/06/23/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/24/index.html" afterPath="$PROJECT_DIR$/2009/06/24/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/24/launching-flex4org/index.html" afterPath="$PROJECT_DIR$/2009/06/24/launching-flex4org/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/27/heading-to-new-york-brb/index.html" afterPath="$PROJECT_DIR$/2009/06/27/heading-to-new-york-brb/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/27/index.html" afterPath="$PROJECT_DIR$/2009/06/27/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/28/3d-math-book-recommendation/index.html" afterPath="$PROJECT_DIR$/2009/06/28/3d-math-book-recommendation/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/28/index.html" afterPath="$PROJECT_DIR$/2009/06/28/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/index.html" afterPath="$PROJECT_DIR$/2009/06/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/06/page/2/index.html" afterPath="$PROJECT_DIR$/2009/06/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/07/01/creating-a-custom-vectorvision-font/index.html" afterPath="$PROJECT_DIR$/2009/07/01/creating-a-custom-vectorvision-font/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/07/01/dynamic-text-on-a-plane/index.html" afterPath="$PROJECT_DIR$/2009/07/01/dynamic-text-on-a-plane/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/07/01/end-dump/index.html" afterPath="$PROJECT_DIR$/2009/07/01/end-dump/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/07/01/index.html" afterPath="$PROJECT_DIR$/2009/07/01/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/07/01/materials-reference/index.html" afterPath="$PROJECT_DIR$/2009/07/01/materials-reference/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/07/01/maya-texture-baking/comment-page-1/index.html" afterPath="$PROJECT_DIR$/2009/07/01/maya-texture-baking/comment-page-1/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/07/01/maya-texture-baking/index.html" afterPath="$PROJECT_DIR$/2009/07/01/maya-texture-baking/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/07/01/page/2/index.html" afterPath="$PROJECT_DIR$/2009/07/01/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/07/01/perlin-blob/index.html" afterPath="$PROJECT_DIR$/2009/07/01/perlin-blob/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/07/01/test-if-a-plane-is-within-the-view-of-the-camera-aka-testing-if-culled/comment-page-1/index.html" afterPath="$PROJECT_DIR$/2009/07/01/test-if-a-plane-is-within-the-view-of-the-camera-aka-testing-if-culled/comment-page-1/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/07/01/test-if-a-plane-is-within-the-view-of-the-camera-aka-testing-if-culled/index.html" afterPath="$PROJECT_DIR$/2009/07/01/test-if-a-plane-is-within-the-view-of-the-camera-aka-testing-if-culled/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/07/01/workshop-video-and-example-dump/index.html" afterPath="$PROJECT_DIR$/2009/07/01/workshop-video-and-example-dump/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/07/03/index.html" afterPath="$PROJECT_DIR$/2009/07/03/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/07/03/morphcontroller-mighty-morphing-papervision3d/index.html" afterPath="$PROJECT_DIR$/2009/07/03/morphcontroller-mighty-morphing-papervision3d/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/07/index.html" afterPath="$PROJECT_DIR$/2009/07/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/07/page/2/index.html" afterPath="$PROJECT_DIR$/2009/07/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/07/page/3/index.html" afterPath="$PROJECT_DIR$/2009/07/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/08/07/efflex-3d-effects-for-flex/comment-page-1/index.html" afterPath="$PROJECT_DIR$/2009/08/07/efflex-3d-effects-for-flex/comment-page-1/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/08/07/efflex-3d-effects-for-flex/index.html" afterPath="$PROJECT_DIR$/2009/08/07/efflex-3d-effects-for-flex/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/08/07/index.html" afterPath="$PROJECT_DIR$/2009/08/07/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/08/28/index.html" afterPath="$PROJECT_DIR$/2009/08/28/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/08/index.html" afterPath="$PROJECT_DIR$/2009/08/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/11/18/index.html" afterPath="$PROJECT_DIR$/2009/11/18/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/11/21/eclipse-theme-designer-preview/index.html" afterPath="$PROJECT_DIR$/2009/11/21/eclipse-theme-designer-preview/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/11/21/index.html" afterPath="$PROJECT_DIR$/2009/11/21/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/11/index.html" afterPath="$PROJECT_DIR$/2009/11/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/12/08/back-in-the-saddle/index.html" afterPath="$PROJECT_DIR$/2009/12/08/back-in-the-saddle/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/12/08/index.html" afterPath="$PROJECT_DIR$/2009/12/08/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/12/12/index.html" afterPath="$PROJECT_DIR$/2009/12/12/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/12/12/robotlegs-flight-union-platform/index.html" afterPath="$PROJECT_DIR$/2009/12/12/robotlegs-flight-union-platform/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/12/18/index.html" afterPath="$PROJECT_DIR$/2009/12/18/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/12/18/tweenmax-tweening-a-timeline-advanced-tweening/comment-page-2/index.html" afterPath="$PROJECT_DIR$/2009/12/18/tweenmax-tweening-a-timeline-advanced-tweening/comment-page-2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/12/18/tweenmax-tweening-a-timeline-advanced-tweening/index.html" afterPath="$PROJECT_DIR$/2009/12/18/tweenmax-tweening-a-timeline-advanced-tweening/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2009/12/index.html" afterPath="$PROJECT_DIR$/2009/12/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2010/01/15/index.html" afterPath="$PROJECT_DIR$/2010/01/15/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2010/01/15/preferred-video-tutorial-resolution/index.html" afterPath="$PROJECT_DIR$/2010/01/15/preferred-video-tutorial-resolution/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2010/01/21/index.html" afterPath="$PROJECT_DIR$/2010/01/21/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2010/01/27/index.html" afterPath="$PROJECT_DIR$/2010/01/27/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2010/01/index.html" afterPath="$PROJECT_DIR$/2010/01/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2010/03/13/fdt-super-awesome-march-deal/index.html" afterPath="$PROJECT_DIR$/2010/03/13/fdt-super-awesome-march-deal/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2010/03/13/index.html" afterPath="$PROJECT_DIR$/2010/03/13/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2010/03/index.html" afterPath="$PROJECT_DIR$/2010/03/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2010/04/18/index.html" afterPath="$PROJECT_DIR$/2010/04/18/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2010/04/index.html" afterPath="$PROJECT_DIR$/2010/04/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2010/05/19/index.html" afterPath="$PROJECT_DIR$/2010/05/19/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2010/05/25/index.html" afterPath="$PROJECT_DIR$/2010/05/25/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2010/05/25/moving-to-johnlindquist-com/index.html" afterPath="$PROJECT_DIR$/2010/05/25/moving-to-johnlindquist-com/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2010/05/index.html" afterPath="$PROJECT_DIR$/2010/05/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/index.html" afterPath="$PROJECT_DIR$/about/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/applewebkit/index.html" afterPath="$PROJECT_DIR$/applewebkit/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/actionscript-3/index.html" afterPath="$PROJECT_DIR$/category/actionscript-3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/actionscript-3/page/2/index.html" afterPath="$PROJECT_DIR$/category/actionscript-3/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/actionscript-3/page/3/index.html" afterPath="$PROJECT_DIR$/category/actionscript-3/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/actionscript-3/page/4/index.html" afterPath="$PROJECT_DIR$/category/actionscript-3/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/announcements/index.html" afterPath="$PROJECT_DIR$/category/announcements/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/announcements/page/2/index.html" afterPath="$PROJECT_DIR$/category/announcements/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/announcements/page/3/index.html" afterPath="$PROJECT_DIR$/category/announcements/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/announcements/page/4/index.html" afterPath="$PROJECT_DIR$/category/announcements/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/announcements/page/5/index.html" afterPath="$PROJECT_DIR$/category/announcements/page/5/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/announcements/page/6/index.html" afterPath="$PROJECT_DIR$/category/announcements/page/6/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/announcements/page/7/index.html" afterPath="$PROJECT_DIR$/category/announcements/page/7/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/announcements/page/8/index.html" afterPath="$PROJECT_DIR$/category/announcements/page/8/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/index.html" afterPath="$PROJECT_DIR$/category/examples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/10/index.html" afterPath="$PROJECT_DIR$/category/examples/page/10/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/11/index.html" afterPath="$PROJECT_DIR$/category/examples/page/11/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/12/index.html" afterPath="$PROJECT_DIR$/category/examples/page/12/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/13/index.html" afterPath="$PROJECT_DIR$/category/examples/page/13/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/14/index.html" afterPath="$PROJECT_DIR$/category/examples/page/14/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/15/index.html" afterPath="$PROJECT_DIR$/category/examples/page/15/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/16/index.html" afterPath="$PROJECT_DIR$/category/examples/page/16/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/17/index.html" afterPath="$PROJECT_DIR$/category/examples/page/17/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/18/index.html" afterPath="$PROJECT_DIR$/category/examples/page/18/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/19/index.html" afterPath="$PROJECT_DIR$/category/examples/page/19/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/20/index.html" afterPath="$PROJECT_DIR$/category/examples/page/20/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/21/index.html" afterPath="$PROJECT_DIR$/category/examples/page/21/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/22/index.html" afterPath="$PROJECT_DIR$/category/examples/page/22/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/23/index.html" afterPath="$PROJECT_DIR$/category/examples/page/23/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/24/index.html" afterPath="$PROJECT_DIR$/category/examples/page/24/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/25/index.html" afterPath="$PROJECT_DIR$/category/examples/page/25/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/26/index.html" afterPath="$PROJECT_DIR$/category/examples/page/26/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/27/index.html" afterPath="$PROJECT_DIR$/category/examples/page/27/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/2/index.html" afterPath="$PROJECT_DIR$/category/examples/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/3/index.html" afterPath="$PROJECT_DIR$/category/examples/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/4/index.html" afterPath="$PROJECT_DIR$/category/examples/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/5/index.html" afterPath="$PROJECT_DIR$/category/examples/page/5/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/6/index.html" afterPath="$PROJECT_DIR$/category/examples/page/6/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/7/index.html" afterPath="$PROJECT_DIR$/category/examples/page/7/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/8/index.html" afterPath="$PROJECT_DIR$/category/examples/page/8/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/examples/page/9/index.html" afterPath="$PROJECT_DIR$/category/examples/page/9/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/flex/index.html" afterPath="$PROJECT_DIR$/category/flex/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/how-it-works/index.html" afterPath="$PROJECT_DIR$/category/how-it-works/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/how-it-works/page/2/index.html" afterPath="$PROJECT_DIR$/category/how-it-works/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/requests/index.html" afterPath="$PROJECT_DIR$/category/requests/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/requests/page/2/index.html" afterPath="$PROJECT_DIR$/category/requests/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/requests/page/3/index.html" afterPath="$PROJECT_DIR$/category/requests/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/requests/page/4/index.html" afterPath="$PROJECT_DIR$/category/requests/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/roundarch/index.html" afterPath="$PROJECT_DIR$/category/roundarch/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/snippets/index.html" afterPath="$PROJECT_DIR$/category/snippets/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/snippets/page/2/index.html" afterPath="$PROJECT_DIR$/category/snippets/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/snippets/page/3/index.html" afterPath="$PROJECT_DIR$/category/snippets/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/tutorials/index.html" afterPath="$PROJECT_DIR$/category/tutorials/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/tutorials/page/2/index.html" afterPath="$PROJECT_DIR$/category/tutorials/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/tutorials/page/3/index.html" afterPath="$PROJECT_DIR$/category/tutorials/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/tutorials/page/4/index.html" afterPath="$PROJECT_DIR$/category/tutorials/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/tutorials/page/5/index.html" afterPath="$PROJECT_DIR$/category/tutorials/page/5/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/videos/index.html" afterPath="$PROJECT_DIR$/category/videos/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/videos/page/2/index.html" afterPath="$PROJECT_DIR$/category/videos/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/videos/page/3/index.html" afterPath="$PROJECT_DIR$/category/videos/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/videos/page/4/index.html" afterPath="$PROJECT_DIR$/category/videos/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq/index.html" afterPath="$PROJECT_DIR$/faq/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fdt-theme-designer/index.html" afterPath="$PROJECT_DIR$/fdt-theme-designer/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/10/index.html" afterPath="$PROJECT_DIR$/page/10/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/11/index.html" afterPath="$PROJECT_DIR$/page/11/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/12/index.html" afterPath="$PROJECT_DIR$/page/12/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/13/index.html" afterPath="$PROJECT_DIR$/page/13/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/14/index.html" afterPath="$PROJECT_DIR$/page/14/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/15/index.html" afterPath="$PROJECT_DIR$/page/15/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/16/index.html" afterPath="$PROJECT_DIR$/page/16/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/17/index.html" afterPath="$PROJECT_DIR$/page/17/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/18/index.html" afterPath="$PROJECT_DIR$/page/18/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/19/index.html" afterPath="$PROJECT_DIR$/page/19/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/20/index.html" afterPath="$PROJECT_DIR$/page/20/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/21/index.html" afterPath="$PROJECT_DIR$/page/21/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/22/index.html" afterPath="$PROJECT_DIR$/page/22/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/23/index.html" afterPath="$PROJECT_DIR$/page/23/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/24/index.html" afterPath="$PROJECT_DIR$/page/24/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/25/index.html" afterPath="$PROJECT_DIR$/page/25/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/26/index.html" afterPath="$PROJECT_DIR$/page/26/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/27/index.html" afterPath="$PROJECT_DIR$/page/27/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/28/index.html" afterPath="$PROJECT_DIR$/page/28/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/29/index.html" afterPath="$PROJECT_DIR$/page/29/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/2/index.html" afterPath="$PROJECT_DIR$/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/30/index.html" afterPath="$PROJECT_DIR$/page/30/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/31/index.html" afterPath="$PROJECT_DIR$/page/31/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/32/index.html" afterPath="$PROJECT_DIR$/page/32/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/33/index.html" afterPath="$PROJECT_DIR$/page/33/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/34/index.html" afterPath="$PROJECT_DIR$/page/34/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/35/index.html" afterPath="$PROJECT_DIR$/page/35/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/36/index.html" afterPath="$PROJECT_DIR$/page/36/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/37/index.html" afterPath="$PROJECT_DIR$/page/37/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/38/index.html" afterPath="$PROJECT_DIR$/page/38/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/39/index.html" afterPath="$PROJECT_DIR$/page/39/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/3/index.html" afterPath="$PROJECT_DIR$/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/40/index.html" afterPath="$PROJECT_DIR$/page/40/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/41/index.html" afterPath="$PROJECT_DIR$/page/41/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/42/index.html" afterPath="$PROJECT_DIR$/page/42/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/43/index.html" afterPath="$PROJECT_DIR$/page/43/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/4/index.html" afterPath="$PROJECT_DIR$/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/5/index.html" afterPath="$PROJECT_DIR$/page/5/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/6/index.html" afterPath="$PROJECT_DIR$/page/6/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/7/index.html" afterPath="$PROJECT_DIR$/page/7/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/8/index.html" afterPath="$PROJECT_DIR$/page/8/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/9/index.html" afterPath="$PROJECT_DIR$/page/9/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requests/comment-page-5/index.html" afterPath="$PROJECT_DIR$/requests/comment-page-5/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requests/index.html" afterPath="$PROJECT_DIR$/requests/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sitemap/index.html" afterPath="$PROJECT_DIR$/sitemap/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/2d/index.html" afterPath="$PROJECT_DIR$/tag/2d/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/3ds-max/index.html" afterPath="$PROJECT_DIR$/tag/3ds-max/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/addchild/index.html" afterPath="$PROJECT_DIR$/tag/addchild/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/animation/index.html" afterPath="$PROJECT_DIR$/tag/animation/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/as3dmod/index.html" afterPath="$PROJECT_DIR$/tag/as3dmod/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/as3dmod/page/2/index.html" afterPath="$PROJECT_DIR$/tag/as3dmod/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/augmented-reality/index.html" afterPath="$PROJECT_DIR$/tag/augmented-reality/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/basics/index.html" afterPath="$PROJECT_DIR$/tag/basics/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/basics/page/2/index.html" afterPath="$PROJECT_DIR$/tag/basics/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/basics/page/3/index.html" afterPath="$PROJECT_DIR$/tag/basics/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/bend/index.html" afterPath="$PROJECT_DIR$/tag/bend/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/bitmapviewport/index.html" afterPath="$PROJECT_DIR$/tag/bitmapviewport/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/blog/index.html" afterPath="$PROJECT_DIR$/tag/blog/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/box2dflash/index.html" afterPath="$PROJECT_DIR$/tag/box2dflash/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/box2dflash/page/2/index.html" afterPath="$PROJECT_DIR$/tag/box2dflash/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/camera/index.html" afterPath="$PROJECT_DIR$/tag/camera/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/camera/page/2/index.html" afterPath="$PROJECT_DIR$/tag/camera/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/collada/index.html" afterPath="$PROJECT_DIR$/tag/collada/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/coordinates/index.html" afterPath="$PROJECT_DIR$/tag/coordinates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/copytransform/index.html" afterPath="$PROJECT_DIR$/tag/copytransform/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/cube/index.html" afterPath="$PROJECT_DIR$/tag/cube/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/culling/index.html" afterPath="$PROJECT_DIR$/tag/culling/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/dae/index.html" afterPath="$PROJECT_DIR$/tag/dae/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/dae/page/2/index.html" afterPath="$PROJECT_DIR$/tag/dae/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/data-structures/index.html" afterPath="$PROJECT_DIR$/tag/data-structures/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/degrafa/index.html" afterPath="$PROJECT_DIR$/tag/degrafa/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/design-patterns/index.html" afterPath="$PROJECT_DIR$/tag/design-patterns/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/design-patterns/page/2/index.html" afterPath="$PROJECT_DIR$/tag/design-patterns/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/download/index.html" afterPath="$PROJECT_DIR$/tag/download/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/drag/index.html" afterPath="$PROJECT_DIR$/tag/drag/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/drag/page/2/index.html" afterPath="$PROJECT_DIR$/tag/drag/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/filter/index.html" afterPath="$PROJECT_DIR$/tag/filter/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/flartoolkit/index.html" afterPath="$PROJECT_DIR$/tag/flartoolkit/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/flashlcs/index.html" afterPath="$PROJECT_DIR$/tag/flashlcs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/flex/index.html" afterPath="$PROJECT_DIR$/tag/flex/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/flex/page/2/index.html" afterPath="$PROJECT_DIR$/tag/flex/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/flight/index.html" afterPath="$PROJECT_DIR$/tag/flight/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/flint/index.html" afterPath="$PROJECT_DIR$/tag/flint/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/flint/page/2/index.html" afterPath="$PROJECT_DIR$/tag/flint/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/follow/index.html" afterPath="$PROJECT_DIR$/tag/follow/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/forum/index.html" afterPath="$PROJECT_DIR$/tag/forum/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/fun/index.html" afterPath="$PROJECT_DIR$/tag/fun/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/fun/page/2/index.html" afterPath="$PROJECT_DIR$/tag/fun/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/hand-cursor/index.html" afterPath="$PROJECT_DIR$/tag/hand-cursor/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/interactive/index.html" afterPath="$PROJECT_DIR$/tag/interactive/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/interactive/page/2/index.html" afterPath="$PROJECT_DIR$/tag/interactive/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/interactive/page/3/index.html" afterPath="$PROJECT_DIR$/tag/interactive/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/interactive/page/4/index.html" afterPath="$PROJECT_DIR$/tag/interactive/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/interactivescene3devent/index.html" afterPath="$PROJECT_DIR$/tag/interactivescene3devent/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/intermediate/index.html" afterPath="$PROJECT_DIR$/tag/intermediate/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/jiglibflash/index.html" afterPath="$PROJECT_DIR$/tag/jiglibflash/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/light/index.html" afterPath="$PROJECT_DIR$/tag/light/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/line/index.html" afterPath="$PROJECT_DIR$/tag/line/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/line/page/2/index.html" afterPath="$PROJECT_DIR$/tag/line/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/lookat/index.html" afterPath="$PROJECT_DIR$/tag/lookat/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/mask/index.html" afterPath="$PROJECT_DIR$/tag/mask/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/material/index.html" afterPath="$PROJECT_DIR$/tag/material/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/material/page/2/index.html" afterPath="$PROJECT_DIR$/tag/material/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/material/page/3/index.html" afterPath="$PROJECT_DIR$/tag/material/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/material/page/4/index.html" afterPath="$PROJECT_DIR$/tag/material/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/math/index.html" afterPath="$PROJECT_DIR$/tag/math/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/math/page/2/index.html" afterPath="$PROJECT_DIR$/tag/math/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/matrix/index.html" afterPath="$PROJECT_DIR$/tag/matrix/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/maya/index.html" afterPath="$PROJECT_DIR$/tag/maya/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/morphcontroller/index.html" afterPath="$PROJECT_DIR$/tag/morphcontroller/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/mouse3d/index.html" afterPath="$PROJECT_DIR$/tag/mouse3d/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/mouse/index.html" afterPath="$PROJECT_DIR$/tag/mouse/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/mouse/page/2/index.html" afterPath="$PROJECT_DIR$/tag/mouse/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/moviematerial/index.html" afterPath="$PROJECT_DIR$/tag/moviematerial/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/multiple-viewports/index.html" afterPath="$PROJECT_DIR$/tag/multiple-viewports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/mxml/index.html" afterPath="$PROJECT_DIR$/tag/mxml/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/off-topic/index.html" afterPath="$PROJECT_DIR$/tag/off-topic/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/orbit/index.html" afterPath="$PROJECT_DIR$/tag/orbit/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/particles/index.html" afterPath="$PROJECT_DIR$/tag/particles/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/physics/index.html" afterPath="$PROJECT_DIR$/tag/physics/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/physics/page/2/index.html" afterPath="$PROJECT_DIR$/tag/physics/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/pivot-point/index.html" afterPath="$PROJECT_DIR$/tag/pivot-point/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/pixel-perfect/index.html" afterPath="$PROJECT_DIR$/tag/pixel-perfect/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/pixel3d/index.html" afterPath="$PROJECT_DIR$/tag/pixel3d/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/plane3d/index.html" afterPath="$PROJECT_DIR$/tag/plane3d/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/quaternion/index.html" afterPath="$PROJECT_DIR$/tag/quaternion/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/quaternion/page/2/index.html" afterPath="$PROJECT_DIR$/tag/quaternion/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/ray/index.html" afterPath="$PROJECT_DIR$/tag/ray/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/reflection/index.html" afterPath="$PROJECT_DIR$/tag/reflection/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/removechild/index.html" afterPath="$PROJECT_DIR$/tag/removechild/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/ribbons/index.html" afterPath="$PROJECT_DIR$/tag/ribbons/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/rotation/index.html" afterPath="$PROJECT_DIR$/tag/rotation/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/rotation/page/2/index.html" afterPath="$PROJECT_DIR$/tag/rotation/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/scrollbar/index.html" afterPath="$PROJECT_DIR$/tag/scrollbar/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/shader/index.html" afterPath="$PROJECT_DIR$/tag/shader/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/slerp/index.html" afterPath="$PROJECT_DIR$/tag/slerp/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/slice/index.html" afterPath="$PROJECT_DIR$/tag/slice/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/sorting/index.html" afterPath="$PROJECT_DIR$/tag/sorting/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/sound/index.html" afterPath="$PROJECT_DIR$/tag/sound/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/state/index.html" afterPath="$PROJECT_DIR$/tag/state/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/text-layout-framework/index.html" afterPath="$PROJECT_DIR$/tag/text-layout-framework/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/texture-baking/index.html" afterPath="$PROJECT_DIR$/tag/texture-baking/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/trail/index.html" afterPath="$PROJECT_DIR$/tag/trail/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/triangle3d/index.html" afterPath="$PROJECT_DIR$/tag/triangle3d/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/trianglemesh3d/index.html" afterPath="$PROJECT_DIR$/tag/trianglemesh3d/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/tweenmax/index.html" afterPath="$PROJECT_DIR$/tag/tweenmax/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/tweenmax/page/2/index.html" afterPath="$PROJECT_DIR$/tag/tweenmax/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/tweenmax/page/3/index.html" afterPath="$PROJECT_DIR$/tag/tweenmax/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/tweenmax/page/4/index.html" afterPath="$PROJECT_DIR$/tag/tweenmax/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/uv/index.html" afterPath="$PROJECT_DIR$/tag/uv/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/vector/index.html" afterPath="$PROJECT_DIR$/tag/vector/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/vectorvision/index.html" afterPath="$PROJECT_DIR$/tag/vectorvision/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/vertex3d/index.html" afterPath="$PROJECT_DIR$/tag/vertex3d/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/viewport/index.html" afterPath="$PROJECT_DIR$/tag/viewport/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/viewportlayer/index.html" afterPath="$PROJECT_DIR$/tag/viewportlayer/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/demar/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/demar/header.php" />
+    </list>
     <ignored path="pv3d.org.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,6 +579,49 @@
     <disable_hints />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="55" selection-start="4200" selection-end="4200" vertical-scroll-proportion="-9.714286">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#1;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#11;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#11;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#11;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#11;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#11;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#11;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#11;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#11;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2008/11/07/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="0" selection-start="3876" selection-end="3876" vertical-scroll-proportion="0.3066202">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/demar/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="25" selection-start="2592" selection-end="2592" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -26,10 +630,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/2008/11/07/index.html" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="711" />
-    <option name="y" value="424" />
-    <option name="width" value="1260" />
+    <option name="x" value="340" />
+    <option name="y" value="556" />
+    <option name="width" value="1599" />
     <option name="height" value="899" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -77,68 +689,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pv3d.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pv3d.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pv3d.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pv3d.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pv3d.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pv3d.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="disqus-comment-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -157,6 +707,13 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -169,13 +726,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="711" y="424" width="1260" height="899" extended-state="0" />
+    <frame x="340" y="556" width="1599" height="899" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.52168024" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24979524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19551282" sideWeight="0.4783198" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -184,7 +743,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -195,8 +753,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <value>
         <are-packages-shown value="false" />
@@ -225,7 +783,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing nav" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -238,9 +796,45 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="fixing nav" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/demar/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="25" selection-start="2592" selection-end="2592" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="55" selection-start="4200" selection-end="4200" vertical-scroll-proportion="-9.714286">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#1;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#11;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#11;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#11;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#11;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#11;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#11;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#11;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#11;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2008/11/07/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="0" selection-start="3876" selection-end="3876" vertical-scroll-proportion="0.3066202">
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
 

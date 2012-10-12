@@ -43,9 +43,9 @@ pageTracker._trackPageview();
 	<!-- <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1> -->
 	<h2 id="blog-description"><?php bloginfo('description'); ?></h2>
 
-<a href="http://pv3d.org"><img src="http://pv3d.org/logo.png" width="300px"></img</a>
+<a href="http://pv3d.org"><img src="http://pv3d.org/logo.png" width="300px"></a>
 
-<!-- <a href="http://www.richmediainstitute.com/papervision_Chicago_09"><img src="http://dl.getdropbox.com/u/132579/sites/pv3d.org/images/chicagotraining.jpg" align="right"></img</a> -->
+<!-- <a href="http://www.richmediainstitute.com/papervision_Chicago_09"><img src="http://dl.getdropbox.com/u/132579/sites/pv3d.org/images/chicagotraining.jpg" align="right"></a> -->
 
 
 	<ul>
